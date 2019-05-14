@@ -589,11 +589,35 @@ ul.social-network li a {
 	width: 5rem;
 	height: 5rem;
 	display: inline-block;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 }
 
 #company-name {
 	margin-left: 2rem;
 	color : #FE5959;
 	display: inline-block;
+}
+
+.site-home-container {
+	width: 100vw;
+	height: 80rem;
+	margin: auto;
+}
+
+#site-home-image-container {
+	background: #ccc;
+	width: 60rem;
+	height: 60rem;
+	margin: auto;
+}
+
+#site-home-image {
+	width: 60rem;
+	height: 60rem;
+}
+
+#home h1 {
+	color: #FE5959;
+	text-align: center;
+	text-transform: lowercase;
 }
