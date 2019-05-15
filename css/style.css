@@ -657,12 +657,10 @@ ul.social-network li a {
 
 
 .homePageServices {
-  width: 80em;
-  height: 40rem;
+  width: 90em;
+  height: 50rem;
   margin: auto;
   margin-top: 3.5rem;
-  border: 1px solid #ccc;
-	background: #FE5959;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
@@ -670,8 +668,9 @@ ul.social-network li a {
 
 .homePageService {
   display: block;
-  width: 30rem;
-  height: 35rem;
+  width: 35rem;
+  height: 40rem;
+	background: #FE5959;
   margin: auto;
   margin-top: 2.5rem;
   border: 2px solid white;
@@ -681,16 +680,18 @@ ul.social-network li a {
 .serviceImage {
   display: block;
   position: relative;
-  width: 6rem;
-  height: 9rem;
+  width: 8rem;
+  height: 11.5rem;
   margin: auto;
   margin-top: 1rem;
 }
 
 .homePageServiceDetails {
   color: white;
-  font-size: 1.5rem;
-  padding: 1rem;
+	line-height: 3rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+	padding-right: 2rem;
   padding-top: .5rem;
   padding-bottom: 0rem;
 	text-align: center;
@@ -698,29 +699,12 @@ ul.social-network li a {
 
 .homePageServiceTitle {
   color: white;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 	text-align: center;
 }
 
 #servicesTitle {
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
-}
-
-.servicePrice {
-  margin-top: 1rem;
-  color: rgb(73, 110, 178);
-}
-
-
-.homePageParagraph {
-  width: 50rem;
-  margin: auto;
-  margin-top: 2.5rem;
-  font-size: 1.2rem;
-}
-
-#homePageSep {
-  margin-top: 5rem;
 }
