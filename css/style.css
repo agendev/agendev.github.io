@@ -587,7 +587,7 @@ ul.social-network li a {
 }
 
 #company-logo {
-	width: 3.75rem;
+	width: 3.5rem;
 	height: 5rem;
 	display: inline-block;
 	margin-bottom: 2.5rem;
@@ -607,13 +607,13 @@ ul.social-network li a {
 }
 
 #site-home-image-container {
-	width: 45rem;
+	width: 40rem;
 	height: 60rem;
 	margin: auto;
 }
 
 #site-home-image {
-	width: 45rem;
+	width: 40rem;
 	height: 60rem;
 	background: white;
 	margin: auto;
