@@ -657,12 +657,15 @@ ul.social-network li a {
 	font-size: 1.5rem;
 }
 
+.servicesContainer {
+	width: 100vw;
+	height: 100vh;
+}
 
 .homePageServices {
-  width: 90em;
+  width: 120rem;
   height: 50rem;
   margin: auto;
-  margin-top: 3.5rem;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
@@ -677,7 +680,10 @@ ul.social-network li a {
   margin-top: 2.5rem;
   border: 2px solid white;
   border-radius: .5rem;
+	transition: all .2s ease-in-out;
 }
+
+.homePageService:hover { transform: scale(1.1); }
 
 .serviceImage {
   display: block;
