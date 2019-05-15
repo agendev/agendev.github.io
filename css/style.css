@@ -740,4 +740,15 @@ ul.social-network li a {
 		padding: 0;
 	}
 
+	#company-logo {
+		padding-top: 1rem;
+		width: 2.25rem;
+		height: 4rem;
+	}
+
+	#company-name {
+		margin-left: 1rem;
+		font-size: 1.75rem;
+	}
+
 }
