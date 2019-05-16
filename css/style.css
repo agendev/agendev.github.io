@@ -626,7 +626,7 @@ ul.social-network li a {
 }
 
 .profiles-container {
-	width: 60rem;
+	width: 80rem;
 	margin: auto;
 	margin-top: 10rem;
 	display: flex;
@@ -641,7 +641,7 @@ ul.social-network li a {
 
 #team-header {
 	color:black;    font-size: 25px;
-	margin-top: 0;
+	margin-top: 5rem;
 	margin-bottom: 10px;
 	text-align: center;
 	color: #333;
@@ -650,20 +650,44 @@ ul.social-network li a {
 }
 
 .profile-name {
-	font-size: 2.5rem !important;
+	margin-top: 5rem;
+	font-size: 3rem !important;
+}
+
+.profile-description-container {
+	margin-top: 3rem;
 }
 
 .profile-description {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
+.profile-links-container {
+	width: 20rem;
+	height: 10rem;
+	margin: auto;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.profile-links-container i {
+	display: inline-block;
+}
+
+.profile-links-container p {
+	display: inline-block;
+}
+
+
 .servicesContainer {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 }
 
 .homePageServices {
-  width: 120rem;
+  width: 100%;
   height: 50rem;
   margin: auto;
   border-radius: 1rem;
@@ -681,6 +705,10 @@ ul.social-network li a {
   border: 2px solid white;
   border-radius: .5rem;
 	transition: all .2s ease-in-out;
+}
+
+.homePageService:hover {
+	cursor: pointer;
 }
 
 .homePageService:hover { transform: scale(1.1); }
@@ -717,12 +745,29 @@ ul.social-network li a {
   font-family: "Montserrat", sans-serif;
 }
 
+#team {
+	height: 100vh;
+	width: 100%;
+}
+
+.profile-name, .profile-description-container {
+	text-align: center;
+}
+
+.profile-link {
+	text-align: center;
+}
+
+
 @media (max-width: 768px) {
 	.servicesContainer {
 		height: 275vh;
 		margin: 0;
 		padding: 0;
 
+	}
+	.site-home-container {
+		width: 100%;
 	}
   .homePageServices {
 		width: 30rem;
@@ -749,6 +794,32 @@ ul.social-network li a {
 	#company-name {
 		margin-left: 1rem;
 		font-size: 1.75rem;
+	}
+
+	#team {
+		height: 180vh;
+	}
+
+	.profiles-container {
+		display: flex;
+		flex-direction: column;
+		width: 30rem;
+		margin: auto;
+	}
+
+	.profile-image-container {
+		width: 20rem;
+		height: 20rem;
+		margin: auto;
+		margin-top: 10rem;
+	}
+
+	.profile-name, .profile-description-container {
+		text-align: center;
+	}
+
+	.profile-link {
+		text-align: center;
 	}
 
 }
