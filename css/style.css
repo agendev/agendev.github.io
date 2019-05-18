@@ -130,12 +130,13 @@ a:hover {
 }
 .nav-tabs > li > a {
 	border-radius:0;
-	color:#333;
+	color: white;
 	padding:30px;
 }
 
+
 .nav-tabs > li > a:hover {
-	color: #FE5959;
+	color: #112B5E;
 	border-color: #fff #fff #fff;
 	border-radius:0;
 	background-color:#fff;
@@ -144,8 +145,9 @@ a:hover {
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 }
+
 .nav-tabs > li > a.active {
-	color: #FE5959;
+	color: 	white;
 	border-radius:0;
 	transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -448,7 +450,7 @@ textarea#message{
 ============================ */
 footer {
 	padding:50px;
-	background:	#FE5959;
+	background:#112B5E;
 }
 
 footer li {
@@ -595,7 +597,7 @@ ul.social-network li a {
 
 #company-name {
 	margin-left: 2rem;
-	color : #FE5959;
+	color : white;
 	display: inline-block;
 }
 
@@ -620,7 +622,7 @@ ul.social-network li a {
 }
 
 #home h1 {
-	color: #FE5959;
+	color: 	#112B5E;
 	text-align: center;
 	text-transform: lowercase;
 }
@@ -699,7 +701,7 @@ ul.social-network li a {
   display: block;
   width: 35rem;
   height: 40rem;
-	background: #FE5959;
+	background:#112B5E;
   margin: auto;
   margin-top: 2.5rem;
   border: 2px solid white;
