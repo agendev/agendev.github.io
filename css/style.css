@@ -409,7 +409,7 @@ a.accordion-toggle  i{
 }
 
 .validation {
-    color: red;
+    color: f;
     display:none;
     margin: 0 0 20px;
     font-weight:400;
@@ -940,14 +940,12 @@ ul.social-network li a {
 		width: 100%;
 		height: 50vh;
 		top: 0;
-		background: red;
 	}
 
 	#site-home-image {
 		width: 100%;
 		height: 50vh;
 		top: 0;
-		background: red;
 	}
 
 	#slogan-container {
@@ -1059,5 +1057,27 @@ ul.social-network li a {
 		width: 100%;
 		border: 0;
 	}
+
+	.navbar-brand {
+		margin-top: 0;
+		margin: 0;
+		padding: 0;
+		padding-left: 2rem;
+	}
+
+	#company-logo-link, #company-logo {
+		width: 12rem;
+		height: 100%;
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	 #company-logo {
+		 position: absolute;
+		 top: 0;
+		 width: 8rem;
+		 height: 5rem;
+		 margin-bottom: 1rem;
+	 }
 
 }
