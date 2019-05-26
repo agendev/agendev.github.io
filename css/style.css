@@ -928,12 +928,12 @@ ul.social-network li a {
 
 	#home {
 		width: 100%;
-		height: 50vh;
+		height: 40vh;
 	}
 
 	.site-home-container {
 		width: 100%;
-		height: 50vh;
+		height: 40vh;
 	}
 
 	#site-home-image-container {
@@ -944,7 +944,7 @@ ul.social-network li a {
 
 	#site-home-image {
 		width: 100%;
-		height: 50vh;
+		height: 35vh;
 		top: 0;
 	}
 
@@ -967,7 +967,7 @@ ul.social-network li a {
 
   .homePageServices {
 		width: 30rem;
-		height: 200vh;
+		height: 180vh;
 		flex-direction: column;
 		margin: auto;
 		justify-content: center;
@@ -992,9 +992,7 @@ ul.social-network li a {
 		font-size: 1.75rem;
 	}
 
-	#team {
-		height: 180vh;
-	}
+
 
 	.profiles-container {
 		display: flex;
