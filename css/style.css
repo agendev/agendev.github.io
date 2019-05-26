@@ -632,34 +632,49 @@ ul.social-network li a {
 	width: 100%;
 	height: 80rem;
 	margin-top: 0;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#site-home-image-container.image {
+	position:relative;
+	display:inline-block;
 }
 
 #site-home-image {
 	width: 100%;
 	height: 80rem;
 	margin-top: 0;
-	display: inline-block;
+	display:block;
+}
+
+#slogan-container {
+	position:absolute;
+	bottom: 0;
+	padding-top: 10rem;
+	right:12.5%;
+	height: 50rem;
+	width: 100rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #slogan-text {
-	position: absolute;
+	margin: auto;
 	font-size: 5.5rem;
-	width: 50rem;
-	border: 1px solid green;
+	width: 70rem;
 	color: white;
-	top: 30%;
-	left: 50%;
 	font-family: "Lato", sans-serif;
+	text-align: center;
 }
 
 #slogan-logo {
-	position: absolute;
+	margin: auto;
 	font-size: 5.5rem;
 	width: 30rem;
-	border: 1px solid green;
+
 	color: white;
-	top: 50%;
-	left: 50%;
 }
 
 #home h1 {
