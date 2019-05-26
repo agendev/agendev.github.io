@@ -676,6 +676,7 @@ ul.social-network li a {
 	color: white;
 	font-family: "Lato", sans-serif;
 	text-align: center;
+
 }
 
 #slogan-logo {
@@ -920,16 +921,54 @@ ul.social-network li a {
 		padding: 0;
 
 	}
+
+	#home {
+		width: 100%;
+		height: 50vh;
+	}
+
 	.site-home-container {
 		width: 100%;
+		height: 50vh;
 	}
+
+	#site-home-image-container {
+		width: 100%;
+		height: 50vh;
+		top: 0;
+		background: red;
+	}
+
+	#site-home-image {
+		width: 100%;
+		height: 50vh;
+		top: 0;
+		background: red;
+	}
+
+	#slogan-container {
+		top: 0;
+		left: 0;
+		width: 10rem;
+		height: 10rem;
+		display: none;
+	}
+
+	#slogan-text {
+		font-size: 2rem;
+	}
+
+	#slogan-logo {
+		width: 5rem;
+		height: 5rem;
+	}
+
   .homePageServices {
 		width: 30rem;
-		height: 250vh;
+		height: 220vh;
 		flex-direction: column;
-		margin-left: 0;
-		margin: 0;
-		padding: 0;
+		margin: auto;
+		justify-content: center;
 	}
 
 	.homePageService {
@@ -937,6 +976,7 @@ ul.social-network li a {
 		height: 45rem;
 		margin: 0;
 		padding: 0;
+		margin: auto;
 	}
 
 	#company-logo {
