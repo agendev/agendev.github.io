@@ -625,7 +625,7 @@ ul.social-network li a {
 }
 
 .profiles-container {
-	width: 80rem;
+	width: 60rem;
 	margin: auto;
 	margin-top: 10rem;
 	display: flex;
@@ -646,6 +646,30 @@ ul.social-network li a {
 	color: #333;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+#who-we-are-paragraph {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: .5rem;
+	font-weight: bold;
+}
+
+#more-about-us-container {
+	width: 18rem;
+	height: 5rem;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+#more-about-us-button {
+	width: 18rem;
+	height: 5rem;
+	background: #E64D1F;
+	font-size: 1.5rem;
+	outline: none;
+	margin: auto;
+	border-radius: 1.5rem;
 }
 
 .profile-name {
