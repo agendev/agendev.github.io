@@ -445,7 +445,7 @@ textarea#message{
 ============================ */
 footer {
 	padding:50px;
-	background:#112B5E;
+	background:#1BA99C;
 }
 
 footer li {
@@ -607,6 +607,7 @@ ul.social-network li a {
 }
 
 #site-home-image-container {
+	position: relative;
 	width: 100%;
 	height: 80rem;
 	margin-top: 0;
@@ -616,6 +617,27 @@ ul.social-network li a {
 	width: 100%;
 	height: 80rem;
 	margin-top: 0;
+	display: inline-block;
+}
+
+#slogan-text {
+	position: absolute;
+	font-size: 5.5rem;
+	width: 50rem;
+	border: 1px solid green;
+	color: white;
+	top: 30%;
+	left: 50%;
+}
+
+#slogan-logo {
+	position: absolute;
+	font-size: 5.5rem;
+	width: 30rem;
+	border: 1px solid green;
+	color: white;
+	top: 50%;
+	left: 50%;
 }
 
 #home h1 {
