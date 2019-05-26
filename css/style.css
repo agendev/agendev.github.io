@@ -922,6 +922,10 @@ ul.social-network li a {
 
 	}
 
+	body {
+		width: 100%;
+	}
+
 	#home {
 		width: 100%;
 		height: 50vh;
@@ -965,7 +969,7 @@ ul.social-network li a {
 
   .homePageServices {
 		width: 30rem;
-		height: 220vh;
+		height: 200vh;
 		flex-direction: column;
 		margin: auto;
 		justify-content: center;
@@ -997,15 +1001,21 @@ ul.social-network li a {
 	.profiles-container {
 		display: flex;
 		flex-direction: column;
-		width: 30rem;
+		justify-content:center;
+		width: 100%;
+
 		margin: auto;
+	}
+
+	.profile-container {
+		margin-top: 0;
 	}
 
 	.profile-image-container {
 		width: 20rem;
 		height: 20rem;
 		margin: auto;
-		margin-top: 10rem;
+		margin-top: 5rem;
 	}
 
 	.profile-name, .profile-description-container {
@@ -1014,6 +1024,40 @@ ul.social-network li a {
 
 	.profile-link {
 		text-align: center;
+	}
+
+	#about {
+		width: 100%;
+	}
+
+	.section-description {
+		position: relative;
+	  font-size: 1.5rem;
+	}
+
+	.servicesContainer {
+		padding: 2rem;
+	}
+
+	#portfolio {
+		width: 100%;
+		height: 100vh;
+		padding: 2rem;
+	}
+
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.project {
+		width: 100%;
+	}
+
+	.project-image {
+		width: 100%;
+		border: 0;
 	}
 
 }
