@@ -14,7 +14,7 @@
 
 
 body {
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Fira Sans', Arial, sans-serif;
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
@@ -376,9 +376,11 @@ a.accordion-toggle  i{
   transition:  color 300ms, background-color 300ms;
 }
 
-#contact {
+
+#contact, #portfolio  {
 	background:#f6f6f6;
-	padding:100px;
+	width: 100%;
+	height: 100vh;
 }
 
 /* google map */
@@ -454,6 +456,7 @@ textarea#message{
 footer {
 	padding:50px;
 	background:#1BA99C;
+	width: 100%;
 }
 
 footer li {
