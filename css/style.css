@@ -393,6 +393,10 @@ a.accordion-toggle  i{
 	padding: 5rem;
 }
 
+#portfolio {
+	background: white;
+}
+
 /* google map */
 #google-map{
 	position:relative;
@@ -860,6 +864,54 @@ ul.social-network li a {
 	text-align: center;
 }
 
+.projects-container {
+	width: 100%;
+	height: 50rem;
+	padding: 2rem;
+}
+
+.project {
+	width: 40rem;
+	height: 100%;
+	border: 1px solid #ccc;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.project-image {
+	width: 35rem;
+	height: 30rem;
+	border: 1px solid #ccc;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.project-title {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#portfolio-link {
+	color: #1BA99C;
+	font-size: 2rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#portfolio-icon {
+	border-color: #1BA99C;
+}
+
+.project-description {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 200;
+	margin-top:1rem;
+}
 
 @media (max-width: 768px) {
 	.servicesContainer {
