@@ -992,7 +992,7 @@ ul.social-network li a {
 		font-size: 1.75rem;
 	}
 
-
+r
 
 	.profiles-container {
 		display: flex;
@@ -1077,5 +1077,25 @@ ul.social-network li a {
 		 height: 5rem;
 		 margin-bottom: 1rem;
 	 }
+
+	 .navbar-toggle collapsed {
+		 background: white;
+	 }
+
+	 .navbar-default .navbar-toggle {
+    border-color: white;
+		}
+
+		.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+		}
+
+		.sr-only {
+			background: white;
+		}
+
+		.icon-bar {
+			background: white;
+		}
 
 }
