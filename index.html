@@ -8,85 +8,48 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Agendev</title>
 
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/style.css" rel="stylesheet" />
-
-  <link rel="shortcut icon" type="image/png" href="./img/alogo-nobg.png"/>
-
+  <link href="css/app.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Lato&display=swap" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: Anyar
-    Theme URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
 <body>
-  <header style="margin: 0;">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div style="background:#1BA99C;" class="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-            <div class="navbar-brand">
-              <a id="company-logo-link" href="#home"><img id="company-logo" src="./img/alogowhite2.png" /></a>
-            </div>
-          </div>
 
-          <div class="navbar-collapse collapse">
-            <div class="menu">
-              <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation"><a href="#about">About Us</a></li>
-                <li role="presentation"><a href="#services">Services</a></li>
-                <li role="presentation"><a href="#portfolio">Portfolio</a></li>
-                <li role="presentation"><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <ul style="background: green;" class="nav nav-tabs" role="tablist">
+    <li role="presentation"><a href="#about">About Us</a></li>
+    <li role="presentation"><a href="#services">Services</a></li>
+    <li role="presentation"><a href="#portfolio">Portfolio</a></li>
+    <li role="presentation"><a href="#contact">Contact</a></li>
+  </ul>
 
 
+  <!-- ********* start of home ********* -->
 
-
-  <div id="home" style="margin: 0;"g>
-    <div class="site-home-container" style="margin: 0;">
-      <div id="site-home-image-container" style="margin: 0;">
-        <img id="site-home-image" src="img/table-photo.png" style="margin: 0;"/>
+  <div class="section" id="home">
+    <div class="site-home-container">
+      <div id="site-home-image-container">
+        <img id="site-home-image" src="assets/table-photo.png"/>
 
         <div id="slogan-container">
           <h3 id="slogan-text">Your Agenda,<br /> Developed and Simplified.</h3>
-          <img id="slogan-logo" src="./img/alogowhite2.png" />
+          <img id="slogan-logo" src="./assets/alogowhite2.png" />
         </div>
 
       </div>
-
-
     </div>
   </div>
 
 
-    <div id="about">
+  <!-- ********* end of home ********* -->
+
+  <!-- ********* start of about ********* -->
+
+
+    <div class="section" id="about">
       <h2 class="section-header">Who Are We?</h2>
       <p class="section-description">
         We are a team of entrepreneurs, influencers, developers, and designers with an extremely diverse background.
       </p>
       <div class="profiles-container">
-
-
         <div class="profile-container">
           <div class="profile-image-container">
             <img class="profile-image" src="img/colelogo.png" />
@@ -96,22 +59,6 @@
           <div class="profile-description-container">
             <p class="profile-description">Lead UI/UX Designer</p>
           </div>
-                <!--
-          <div class="profile-links-container">
-            <a class="profile-link" href="https://seasonedtofu.com">
-              <i class="fa fa-envelope fa"></i>
-              <p> cole@seasonedtofu.com </p>
-            </a>
-            <a class="profile-link" href="https://seasonedtofu.com">
-              <i class="fa fa-phone fa"></i>
-              <p> cole@seasonedtofu.com </p>
-            </a>
-            <a class="profile-link" href="google.com">
-              <i class="fa fa-link fa"></i>
-              <p> https://seasonedtofu.com </p>
-            </a>
-          </div>
-        -->
         </div>
 
         <div class="profile-container">
@@ -122,22 +69,6 @@
           <div class="profile-description-container">
             <p class="profile-description">Lead Software Developer</p>
           </div>
-          <!--
-          <div class="profile-links-container">
-            <a class="profile-link" href="https://nickwwhite.com">
-              <i class="fa fa-envelope fa"></i>
-              <p> nickwhite1423@gmail.com </p>
-            </a>
-            <a class="profile-link" href="https://nickwwhite.com">
-              <i class="fa fa-phone fa"></i>
-              <p> +1 (716) 604-8766 </p>
-            </a>
-            <a class="profile-link" href="https://nickwwhite.com">
-              <i class="fa fa-link fa"></i>
-              <p> https://nickwwhite.com </p>
-            </a>
-          </div>
-        -->
         </div>
       </div>
 
@@ -147,7 +78,11 @@
 
     </div>
 
-  <div class='servicesContainer' id="services">
+    <!-- ********* end of about ********* -->
+
+    <!-- ********* end of services ********* -->
+
+  <div class='section' id="services">
 
     <h2 class="section-header">What We Do</h2>
     <p class="section-description">
@@ -180,12 +115,14 @@
     </div>
 
     <div class="button-container">
-      <a style="margin:0; padding:0; color: white;" href="services.html" ><button class="button">LEARN MORE<i class="right-arrow"></i></button></a>
+      <a href="services.html" ><button class="button">LEARN MORE<i class="right-arrow"></i></button></a>
     </div>
 
   </div>
 
+  <!-- ********* end of services ********* -->
 
+  <!-- ********* start of portfolio ********* -->
 
   <div class='portfolioContainer' id="portfolio">
 
@@ -205,10 +142,16 @@
 
   </div>
 
+  <!-- ********* end of portfolio ********* -->
+  <!-- ********* start of contact ********* -->
+
 
   <div id="contact">
     <h1 style="color:black; text-align:center;">Contact</h1>
   </div>
+
+
+  <!-- ********* end of contact ********* -->
 
   <footer>
     <div class="container">
@@ -224,18 +167,6 @@
 
     </div>
   </footer>
-
-
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/functions.js"></script>
-  <script src="contactform/contactform.js"></script>
 
 </body>
 

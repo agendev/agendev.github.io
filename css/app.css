@@ -1,0 +1,472 @@
+/*#1BA99C; #E64D1F;*/
+#company-logo-link {
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	position: relative;
+	height: 100%;
+	margin-bottom: 1rem;
+}
+
+#company-logo {
+	width: 14.5rem;
+	height: 6rem;
+	margin-bottom: 1rem;
+}
+
+.site-home-container {
+	width: 100%;
+	height: 80rem;
+	margin: auto;
+	margin-top: 8.5rem;
+}
+
+#site-home-image-container {
+	position: relative;
+	width: 100%;
+	height: 80rem;
+	margin-top: 0;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#site-home-image-container.image {
+	position:relative;
+	display:inline-block;
+}
+
+#site-home-image {
+	width: 100%;
+	height: 80rem;
+	margin-top: 0;
+	display:block;
+}
+
+#slogan-container {
+	position:absolute;
+	top: 0; right: 0;
+	 bottom: 0; left: 0;
+	height: 60%;
+	width: 60%;
+	margin: auto;
+	margin-top: 32rem;
+	padding-top: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+}
+
+#slogan-text {
+	margin: auto;
+	font-size: 6.5rem;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	color: white;
+	font-family: "Lato", sans-serif;
+	text-align: center;
+
+}
+
+#slogan-logo {
+	margin: auto;
+	font-size: 5.5rem;
+	width: 30rem;
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	color: white;
+}
+
+#home h1 {
+	color: 	#112B5E;
+	text-align: center;
+	text-transform: lowercase;
+	width: 100%;
+}
+
+.profiles-container {
+	width: 60rem;
+	margin: auto;
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile-image {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+}
+
+.section-header {
+	color:black;
+	font-size: 3.5rem;
+	text-align: center;
+	color: #333;
+	font-weight: 600;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.section-description {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 2rem;
+	font-weight: 400;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.button-container {
+	width: 18rem;
+	height: 5rem;
+	margin: auto;
+	margin-top: 5rem;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.button {
+	width: 18rem;
+	height: 5rem;
+	background: #E64D1F;
+	font-size: 1.5rem;
+	outline: none;
+	margin: auto;
+	border-radius: 1.5rem;
+	font-family: "Fira Sans", sans-serif;
+	color: white;
+}
+
+.profile-name {
+	margin-top: 5rem;
+	font-size: 3rem !important;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.profile-description-container {
+	margin-top: 2.5rem;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.profile-description {
+	font-size: 2rem;
+}
+
+.profile-links-container {
+	width: 20rem;
+	height: 10rem;
+	margin: auto;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.profile-links-container i {
+	display: inline-block;
+}
+
+.profile-links-container p {
+	display: inline-block;
+}
+
+
+.servicesContainer {
+	width: 100%;
+	height: 100vh;
+	font-family: "Fira Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 2rem;
+}
+
+.homePageServices {
+  width: 100%;
+  height: 65vh;
+  margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+	margin: 0;
+}
+
+.homePageService {
+  display: block;
+  width: 35rem;
+  height: 40rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: .5rem;
+	transition: all .2s ease-in-out;
+	color: black;
+}
+
+.homePageService:hover {
+	cursor: pointer;
+}
+
+.homePageService:hover { transform: scale(1.1); }
+
+.serviceImage {
+  display: block;
+  position: relative;
+	width: 20rem;
+	height: 24rem;
+  margin: auto;
+  margin-top: 1rem;
+	border-radius: 50%;
+}
+
+.homePageServiceDetails {
+	line-height: 3rem;
+  font-size: 2rem;
+	margin-top: 0;
+  padding-left: 2rem;
+	padding-right: 2rem;
+  padding-top: .5rem;
+  padding-bottom: 0rem;
+	text-align: center;
+}
+
+.homePageServiceTitle {
+  margin-top: 2.5rem;
+	margin-bottom: 0;
+	text-align: center;
+	height: 1rem;
+}
+
+#servicesTitle {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#team {
+	height: 100vh;
+	width: 100%;
+}
+
+.profile-name, .profile-description-container {
+	text-align: center;
+}
+
+.profile-link {
+	text-align: center;
+}
+
+.projects-container {
+	width: 100%;
+	height: 50rem;
+	padding: 2rem;
+}
+
+.project {
+	width: 40rem;
+	height: 100%;
+	border: 1px solid #ccc;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.project-image {
+	width: 35rem;
+	height: 30rem;
+	border: 1px solid #ccc;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.project-title {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#portfolio-link {
+	color: #1BA99C;
+	font-size: 2rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#portfolio-icon {
+	border-color: #1BA99C;
+}
+
+.project-description {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 200;
+	margin-top:1rem;
+}
+
+@media (max-width: 768px) {
+	.servicesContainer {
+		height: 275vh;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	body {
+		width: 100%;
+	}
+
+	#home {
+		width: 100%;
+		height: 40vh;
+	}
+
+	.site-home-container {
+		width: 100%;
+		height: 40vh;
+	}
+
+	#site-home-image-container {
+		width: 100%;
+		height: 40vh;
+		top: 0;
+	}
+
+	#site-home-image {
+		width: 100%;
+		height: 35vh;
+		top: 0;
+	}
+
+	#slogan-container {
+		top: 0;
+		left: 0;
+		width: 10rem;
+		height: 10rem;
+		display: none;
+	}
+
+	#slogan-text {
+		font-size: 2rem;
+	}
+
+	#slogan-logo {
+		width: 5rem;
+		height: 5rem;
+	}
+
+  .homePageServices {
+		width: 30rem;
+		height: 180vh;
+		flex-direction: column;
+		margin: auto;
+		justify-content: center;
+	}
+
+	.homePageService {
+		width: 30rem;
+		height: 45rem;
+		margin: 0;
+		padding: 0;
+		margin: auto;
+	}
+
+	#company-logo {
+		padding-top: 1rem;
+		width: 2.25rem;
+		height: 4rem;
+	}
+
+	#company-name {
+		margin-left: 1rem;
+		font-size: 1.75rem;
+	}
+
+r
+
+	.profiles-container {
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		width: 100%;
+
+		margin: auto;
+	}
+
+	.profile-container {
+		margin-top: 0;
+	}
+
+	.profile-image-container {
+		width: 20rem;
+		height: 20rem;
+		margin: auto;
+		margin-top: 5rem;
+	}
+
+	.profile-name, .profile-description-container {
+		text-align: center;
+	}
+
+	.profile-link {
+		text-align: center;
+	}
+
+	#about {
+		width: 100%;
+	}
+
+	.section-description {
+		position: relative;
+	  font-size: 1.5rem;
+	}
+
+	.servicesContainer {
+		padding: 2rem;
+	}
+
+	#portfolio {
+		width: 100%;
+		height: 100vh;
+		padding: 2rem;
+	}
+
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.project {
+		width: 100%;
+	}
+
+	.project-image {
+		width: 100%;
+		border: 0;
+	}
+
+	.navbar-brand {
+		margin-top: 0;
+		margin: 0;
+		padding: 0;
+		padding-left: 2rem;
+	}
+
+	#company-logo-link, #company-logo {
+		width: 12rem;
+		height: 100%;
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	 #company-logo {
+		 position: absolute;
+		 top: 0;
+		 width: 8rem;
+		 height: 5rem;
+		 margin-bottom: 1rem;
+	 }
+}
