@@ -14,27 +14,29 @@
 
 <body>
 
-  <ul style="background: green;" class="nav nav-tabs" role="tablist">
-    <li role="presentation"><a href="#about">About Us</a></li>
-    <li role="presentation"><a href="#services">Services</a></li>
-    <li role="presentation"><a href="#portfolio">Portfolio</a></li>
-    <li role="presentation"><a href="#contact">Contact</a></li>
-  </ul>
+  <div class="header">
+
+    <a id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+
+    <ul class="nav-tabs" role="tablist">
+      <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#about">About Us</a></li>
+      <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#services">Services</a></li>
+      <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#portfolio">Portfolio</a></li>
+      <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
 
 
   <!-- ********* start of home ********* -->
 
   <div class="section" id="home">
-    <div class="site-home-container">
-      <div id="site-home-image-container">
-        <img id="site-home-image" src="assets/table-photo.png"/>
+    <div id="site-home-image-container">
+      <img id="site-home-image" src="assets/table-photo.png"/>
+    </div>
 
-        <div id="slogan-container">
-          <h3 id="slogan-text">Your Agenda,<br /> Developed and Simplified.</h3>
-          <img id="slogan-logo" src="./assets/alogowhite2.png" />
-        </div>
-
-      </div>
+    <div id="slogan-container">
+      <h3 id="slogan-text">Your Agenda,<br /> Developed and Simplified.</h3>
+      <img id="slogan-logo" src="assets/alogowhite2.png" />
     </div>
   </div>
 
@@ -73,7 +75,7 @@
       </div>
 
       <div class="button-container">
-        <a style="margin:0; padding:0; color: white;" href="about.html" ><button class="button">MORE ABOUT US<i class="right-arrow"></i></button></a>
+        <a href="about.html" ><button class="button">MORE ABOUT US<i class="right-arrow"></i></button></a>
       </div>
 
     </div>
@@ -124,7 +126,7 @@
 
   <!-- ********* start of portfolio ********* -->
 
-  <div class='portfolioContainer' id="portfolio">
+  <div class='section' id="portfolio">
 
     <h2 class="section-header">Featured Projects</h2>
     <p class="section-description">
@@ -146,8 +148,8 @@
   <!-- ********* start of contact ********* -->
 
 
-  <div id="contact">
-    <h1 style="color:black; text-align:center;">Contact</h1>
+  <div class='section' id="contact">
+    <h1>Contact</h1>
   </div>
 
 
