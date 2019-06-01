@@ -22,9 +22,26 @@ body {
   width: 100%;
   height: 10vh;
   top: 0;
-  position: absolute;
+  position: fixed;
   background: #1BA99C;
   z-index: 101;
+}
+
+.transparent {
+  background-color: white;
+	height: 2rem !important;
+	font-size: .8rem !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #1BA99C !important;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.gone {
+	display: none;
 }
 
 .nav-tabs {
@@ -58,7 +75,7 @@ body {
 }
 
 
-#header-logo-link{
+#header-logo-link {
   margin: 0;
   padding: 0;
   width: 0;
