@@ -8,8 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Agendev</title>
 
-  <link href="css/app.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -137,12 +139,29 @@
     </p>
 
     <div class="projects-container">
+
+      <div class="project">
+        <img class="project-image" src="assets/same-day-dental-logo.png"/>
+        <h3 class="project-title">Same Day Dental</h3>
+        <p class="project-description">ClockwiseMD API Website Integration</p>
+        <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+      </div>
+
+      <div class="project">
+        <img class="project-image" src="assets/zaparelli.png"/>
+        <h3 class="project-title">Zaperalli</h3>
+        <p class="project-description">Native IOS Mobile Application</p>
+        <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+      </div>
+
       <div class="project">
         <img class="project-image" src="assets/same-day-dental.png"/>
         <h3 class="project-title">Same Day Dental</h3>
         <p class="project-description">ClockwiseMD API Website Integration</p>
         <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
       </div>
+
+
     </div>
 
   </div>
@@ -156,6 +175,15 @@
     <p class="section-description">
      See who we've already helped take off.
     </p>
+
+    <div id="contact-form">
+      <input class="contact-input" type="text" placeholder="First Name"/>
+      <input class="contact-input" type="text" placeholder="Last Name"/>
+      <input class="contact-input" type="text" placeholder="Subject"/>
+      <textarea id="contact-body" rows="5" cols="80" id="TITLE"></textarea>
+      <button id="contact-button">Submit</button>
+    </div>
+
   </div>
 
 
@@ -167,7 +195,7 @@
         <h4>About Us</h4>
         <p>Agendev, LLC is located in Buffalo, New York</p>
         <div class="contact-info">
-          <ul>
+          <ul id="contact-list">
             <li><i class="fa fa-envelope fa"></i> business@agendev.com</li>
           </ul>
         </div>
