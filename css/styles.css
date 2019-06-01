@@ -29,13 +29,12 @@ body {
 
 .nav-tabs {
   float: right;
-  margin-right: 3rem;
+  margin-right: 1rem;
   color: white;
   list-style: none;
-  width: 40rem;
+  width: 35rem;
   height: 60%;
   display: table;
-
 }
 
 .nav-tab {
@@ -66,14 +65,14 @@ body {
   height: 0;
   position: relative;
   height: 100%;
-  padding-bottom: 1rem;
+  padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #header-logo {
   margin-left: 2rem;
-  margin-top: .5rem;
-  width: 8.7rem;
-  height: 90%;;
+  width: 9rem;
+  height: 80%;;
 }
 
 /*header stuff above*/
@@ -111,19 +110,16 @@ body {
 }
 
 .button-container {
-
   width: 15rem;
   height: 4rem;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 5rem;
   font-family: "Fira Sans", sans-serif;
 }
 
 .button {
-
   width: 15rem;
   height: 4rem;
-
   font-size: 1.5rem;
   outline: none;
   border:none;
@@ -136,6 +132,7 @@ body {
    -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -149,10 +146,8 @@ body {
   padding: 5px;
   margin-bottom: 1%;
   margin-left: 5%;
-
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-
 }
 
 
@@ -221,10 +216,9 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-
-
+  margin-top: 5rem;
 }
+
 .profile{
     padding-left: 50%;
     padding-right: 50%;
@@ -252,22 +246,21 @@ body {
 
 /*services*/
 
-.homePageServices{
-    display: flex;
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right:3%;
-    margin-top: 2rem;
-
+.homePageServices {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 3%;
+  padding-right:3%;
+  margin-top: 5rem;
 }
-.homePageService{
+
+.homePageService {
   margin:0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
-
   transition: all .2s ease-in-out;
 }
 
@@ -281,8 +274,8 @@ body {
 }
 
 .homePageServiceTitle {
-    font-size: 1.3rem;
-    text-align: center;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .homePageServiceDetails {
@@ -354,8 +347,8 @@ body {
 
 
 .project-image {
-  width: 18rem;
-  height: 15rem;
+  width: 10rem;
+  height: 5rem;
   margin: 0 auto;
   text-align: center;
 }
