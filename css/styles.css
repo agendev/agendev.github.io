@@ -385,9 +385,12 @@ body {
 
 
 .project-image {
-  width: 10rem;
-  height: 5rem;
+  position: relative;
+  width: 85%;
+  height: 50%;
   margin: 0 auto;
+  margin-top: 2rem;
+  border: 1px solid #ccc;
   text-align: center;
 }
 
