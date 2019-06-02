@@ -3,9 +3,12 @@ $(window).scroll(function() {
 
   if (scroll >= 500) {
     $(".header").addClass("transparent-header");
-
   } else {
     $(".header").removeClass("transparent-header");
-
   }
 });
+
+
+function myFunction() {
+  alert("my function clicked")
+}

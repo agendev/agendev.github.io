@@ -455,6 +455,19 @@ footer {
   font-size: 2rem;
 }
 
+#icon {
+  font-size: 2rem;
+  color: white;
+}
+
+#web-nav {
+  display: table;
+}
+
+#mobile-nav {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
 	.section {
@@ -521,4 +534,18 @@ footer {
 		height: 5rem;
 		width: 10rem;
 	}
+
+  .header {
+  }
+
+  #web-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    background: red;
+    display: table;
+    z-index: 103;
+  }
+
 }
