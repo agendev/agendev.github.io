@@ -339,7 +339,6 @@ body {
 	margin-top: 5rem;
 }
 
-
 .project {
   width: 20rem;
   height:25rem;
@@ -359,13 +358,14 @@ body {
 }
 
 .project-title {
+  margin-top: 5%;
   font-size: 1.7rem;
   margin-bottom: 0;
 }
 .project-description{
   font-size: 1.1rem;
-
 }
+
 .portfolio-link {
 	text-align: center;
   text-decoration: none;
@@ -387,9 +387,9 @@ body {
 .project-image {
   position: relative;
   width: 85%;
-  height: 50%;
+  height: 58%;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 7%;
   border: 1px solid #ccc;
   text-align: center;
 }
