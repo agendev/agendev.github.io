@@ -443,7 +443,7 @@ footer {
 }
 
 #mail-to-container {
-  background: lightgreen;
+  background: #ccc;
   width: 30rem;
   height: 8rem;
   margin: auto;
