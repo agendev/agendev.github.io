@@ -64,7 +64,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cole-information h4 {
+  font-weight: lighter;
   margin-left: 2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
 }
 
 #nick-information {
@@ -78,6 +81,12 @@ html, body, h1, h2, h3, h4, h5, h6 {
 #nick-information h3, #nick-information h4  {
   margin-right: 5rem;
 }
+
+ #nick-information h4 {
+   font-family: 'Open Sans Condensed', sans-serif;
+   letter-spacing: 3px;
+ }
+
 
 .about-links {
   margin: 2rem;
@@ -106,4 +115,5 @@ html, body, h1, h2, h3, h4, h5, h6 {
   padding: 2rem;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
+  font-family: 'Titillium Web', sans-serif;
 }
