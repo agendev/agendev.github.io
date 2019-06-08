@@ -1,0 +1,13 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+.services-section {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: space-around;
+}
