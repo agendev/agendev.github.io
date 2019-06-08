@@ -7,11 +7,15 @@ html, body, h1, h2, h3, h4, h5, h6 {
   overflow-x: hidden;
 }
 
+#background-photo {
+  width: 100%;
+  height: 100vh;
+}
+
 .about-section {
   height: 50vh;
   width: 100%;
   display: flex;
-  flex-direction: space-around;
 }
 
 .about-section-half {
@@ -23,11 +27,26 @@ html, body, h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(#FC5226,#AF3B1D);
   color: white;
   padding-left: 2rem;
+  flex-direction: space-around;
+  position: absolute;
+  top: 0;
+  left: -110%;
+  -webkit-animation: slide-right 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide-right 0.5s forwards;
+  animation-delay: 1s;
 }
 
 #nick-section {
   background: #1CAC9C;
   color: white;
+  position: absolute;
+  top: 50vh;
+  left: 100%;
+  -webkit-animation: slide-left 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide-left 0.5s forwards;
+  animation-delay: 1s;
 }
 
 
@@ -130,4 +149,20 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
   font-family: 'Titillium Web', sans-serif;
+}
+
+@-webkit-keyframes slide-right {
+    100% { left: 0; }
+}
+
+@keyframes slide-right {
+    100% { left: 0; }
+}
+
+@-webkit-keyframes slide-left {
+    100% { left: 0; }
+}
+
+@keyframes slide-left {
+    100% { left: 0; }
 }
