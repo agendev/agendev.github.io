@@ -111,9 +111,23 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-weight: lighter;
 }
 
+#about-skills-cole {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  margin-left: 2rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#about-skills-nick {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  margin-right: 5rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .about-paragraph {
   padding: 3rem;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
-  font-family: 'Titillium Web', sans-serif;o
+  font-family: 'Titillium Web', sans-serif;
 }
