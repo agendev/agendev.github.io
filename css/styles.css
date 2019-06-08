@@ -498,7 +498,7 @@ footer {
   }
 
   #portfolio {
-    height: 220vh;
+    height: 200vh;
   }
 
   .projects-container {
@@ -549,6 +549,10 @@ footer {
     background: red;
     display: table;
     z-index: 103;
+  }
+
+  #contact {
+    height: 50vh;
   }
 
 }
