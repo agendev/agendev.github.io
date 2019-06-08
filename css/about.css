@@ -14,6 +14,11 @@ html, body, h1, h2, h3, h4, h5, h6 {
   flex-direction: space-around;
 }
 
+.about-section-half {
+  flex: 1;
+  display: flex;
+}
+
 #cole-section {
   background: linear-gradient(#FC5226,#AF3B1D);
   color: white;
@@ -42,12 +47,12 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 
 .about-information {
-  flex: 2;
+  flex: 1;
   display: inline-block;
 }
 
 #cole-information {
-    text-align: right;
+  text-align: left;
 }
 
 #cole-information h3 {
@@ -55,15 +60,15 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cole-information h3  {
-  margin-right: 18rem;
+  margin-left: 2rem;
 }
 
 #cole-information h4 {
-  margin-right: 15.6rem;
+  margin-left: 2rem;
 }
 
 #nick-information {
-
+  text-align: right;
 }
 
 #nick-information h3 {
@@ -71,7 +76,17 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #nick-information h3, #nick-information h4  {
-  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.about-links {
+  margin: 2rem;
+  width: 15rem;
+  display: flex;
+}
+
+.about-links i {
+  flex: 1;
 }
 
 
@@ -85,4 +100,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
   margin-top: .5rem;
   font-weight: lighter;
+}
+
+.about-paragraph {
+  padding: 2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
 }
