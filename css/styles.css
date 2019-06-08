@@ -445,16 +445,16 @@ footer {
 }
 
 #mail-to-container {
-  background: #ccc;
-  width: 30rem;
+  width: 100%;
   height: 8rem;
   margin: auto;
-  padding-top: 4rem;
+  text-align: center;
   margin-top: 5rem;
 }
 
 #mail-to-link {
   font-size: 2rem;
+  text-align: center;
 }
 
 #icon {
@@ -468,6 +468,10 @@ footer {
 
 #mobile-nav {
   display: none;
+}
+
+#contact {
+  height: 50vh;
 }
 
 
