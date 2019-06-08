@@ -15,8 +15,14 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cole-section {
-  background: #F6F6F6;
+  background: linear-gradient(#FC5226,#AF3B1D);
+  color: white;
   padding-left: 2rem;
+}
+
+#nick-section {
+  background: #1CAC9C;
+  color: white;
 }
 
 
@@ -41,7 +47,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cole-information {
-    border-bottom: 3px solid black;
     text-align: right;
 }
 
@@ -49,12 +54,16 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin-top: 4rem;
 }
 
-#cole-information h3, #cole-information h4  {
+#cole-information h3  {
   margin-right: 18rem;
 }
 
+#cole-information h4 {
+  margin-right: 15.6rem;
+}
+
 #nick-information {
-    border-top: 3px solid black;
+
 }
 
 #nick-information h3 {
