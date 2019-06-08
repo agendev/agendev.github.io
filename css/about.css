@@ -1,0 +1,79 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-section {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: space-around;
+}
+
+#cole-section {
+  background: #F6F6F6;
+  padding-left: 2rem;
+}
+
+
+.about-image-container {
+  width: 20rem;
+  height: 100%;
+  display: inline-block;
+  flex: 1;
+}
+
+.about-image {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 12.5%;
+  display: inline-block;
+}
+
+
+.about-information {
+  flex: 2;
+  display: inline-block;
+}
+
+#cole-information {
+    border-bottom: 3px solid black;
+    text-align: right;
+}
+
+#cole-information h3 {
+  margin-top: 4rem;
+}
+
+#cole-information h3, #cole-information h4  {
+  margin-right: 18rem;
+}
+
+#nick-information {
+    border-top: 3px solid black;
+}
+
+#nick-information h3 {
+  margin-top: 4rem;
+}
+
+#nick-information h3, #nick-information h4  {
+  margin-left: 5rem;
+}
+
+
+.about-name {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.about-position {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  font-weight: lighter;
+}
