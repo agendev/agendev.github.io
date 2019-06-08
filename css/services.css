@@ -9,5 +9,34 @@ html, body, h1, h2, h3, h4, h5, h6 {
   height: 50vh;
   width: 100%;
   display: flex;
-  flex-direction: space-around;
+  flex-direction: space-between;
+}
+
+.services-section-half {
+  flex: 3;
+}
+
+.services-section-half-image {
+  flex: 1;
+}
+
+.services-image-container {
+  width: 15rem;
+  height: 15rem;
+  display: inline-block;
+  flex: 1;
+}
+
+.services-image-container {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 12.5%;
+  display: inline-block;
+}
+
+.services-paragraph {
+  padding: 5rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Titillium Web', sans-serif;o
 }
