@@ -21,6 +21,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #web-dev {
+  color: white;
+  background: linear-gradient(#FC5226,#AF3B1D);
   position: absolute;
   top: 0vh;
   left: -110%;
@@ -31,6 +33,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-dev {
+  background: #F6F6F6;
   position: absolute;
   top: 50vh;
   left: 100%;
@@ -41,6 +44,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #social-media {
+  color: white;
+  background: linear-gradient(#FC5226,#AF3B1D);
   position: absolute;
   top: 100vh;
   left: -110%;
@@ -59,22 +64,22 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 .services-image-container {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   display: inline-block;
   flex: 1;
+  margin: 2rem;
 }
 
-.services-image-container {
-  width: 15rem;
-  height: 15rem;
+.services-image {
+  width: 20rem;
+  height: 20rem;
   margin-top: 12.5%;
   display: inline-block;
 }
 
 .services-paragraph {
   padding: 5rem;
-  font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
   font-family: 'Titillium Web', sans-serif;o
 }
