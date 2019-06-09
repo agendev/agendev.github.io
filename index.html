@@ -9,7 +9,7 @@
   <title>Agendev</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <link href="css/styles.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Lato&display=swap" rel="stylesheet">
 
@@ -20,7 +20,7 @@
 
   <div class="header">
 
-    <a id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+    <a class = "web-head" id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
 
     <ul class="nav-tabs" role="tablist" id="web-nav">
       <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#about">About Us</a></li>
@@ -36,7 +36,21 @@
       </li>
     </ul>
   -->
+   <div class="mobilenav">
+ <a class = "mobile-head" id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+   <a href="javascript:void(0);" class="icon" onclick="toggleNav()" >
+    <i class="fa fa-bars fa-lg"></i>
+  </a>
+  <div id="myLinks">
+    <a href="#news" class="nav-tab-link">About Us</a>
+    <a href="#contact" class="nav-tab-link">Services</a>
+    <a href="#about"class="nav-tab-link">Portfolio</a>
+    <a href="#about" class="nav-tab-link">Contact</a>
   </div>
+
+</div>
+  </div>
+
 
 
   <!-- ********* start of home ********* -->
@@ -152,8 +166,8 @@
 
       <div class="project">
         <img class="project-image" src="assets/same.png"/>
-        <h3 class="project-title">Same Day Dental</h3>
-        <p class="project-description">ClockwiseMD API Website Integration</p>
+        <h3 class="project-title" id="sameday-title">Same Day Dental</h3>
+        <p class="project-description">ClockwiseMD API</br>Website Integration</p>
         <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
       </div>
 
@@ -168,7 +182,7 @@
     </div>
 
     <div class="button-container">
-      <a href="portfolio.html" ><button class="button">PORTFOLIO<i class="right-arrow"></i></button></a>
+      <a href="portfolio.html"><button class="button">PORTFOLIO<i class="right-arrow"></i></button></a>
     </div>
 
   </div>

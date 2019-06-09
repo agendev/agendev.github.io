@@ -1,7 +1,7 @@
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
 
-  if (scroll >= 500) {
+  if (scroll >= 250) {
     $(".header").addClass("transparent-header");
   } else {
     $(".header").removeClass("transparent-header");
@@ -9,6 +9,15 @@ $(window).scroll(function() {
 });
 
 
-function myFunction() {
-  alert("my function clicked")
+function toggleNav() {
+   var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    
+  } else {
+    x.style.display = "block";
+    
+  }
+  
+
 }
