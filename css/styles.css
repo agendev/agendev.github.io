@@ -192,7 +192,7 @@ body {
   display: inline-block;
   border: solid white;
   border-width: 0 3px 3px 0;
- 
+
   padding: 5px;
   margin-bottom: 1%;
   margin-left: 5%;
@@ -391,8 +391,8 @@ body {
 #portfolio-button{
   margin-bottom: 10px;
 }
-  
-  
+
+
 
 
 
@@ -550,27 +550,22 @@ transform: scale(1.05);
 
 	#home {
 		height: 30vh;
-    
-	}
-
-  .profiles-container, .homePageServices, .projects-container {
-    flex-direction: column;
-		justify-content: space-between;
-  }
-
-	#site-home-image-container, #site-home-image {
-		width: 100%;
-		height: 30vh;
-
-  
-
 
 	}
+
+.profiles-container, .homePageServices, .projects-container {
+  flex-direction: column;
+	justify-content: space-between;
+}
+
+#site-home-image-container, #site-home-image {
+	width: 100%;
+	height: 30vh;
+}
 
 	#slogan-container {
      margin: 0 auto;
      margin-top: 35%;
-
 	}
 
 	#slogan-text {
@@ -582,15 +577,14 @@ transform: scale(1.05);
 		width: 5rem;
 	}
 
-  .header {
-  }
+#web-nav {
+  display: none;
+}
 
-  #web-nav {
-    display: none;
-  }
 .web-head{
   display: none;
 }
+
 .mobile-head{
   display: inline-block;
   float: left;
@@ -602,6 +596,10 @@ transform: scale(1.05);
 
 }
  .mobilenav {
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
   overflow: hidden;
   background-color: transparent;
   position: relative;
@@ -609,15 +607,22 @@ transform: scale(1.05);
 }
 
 .mobilenav #myLinks {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   display: none;
   margin-top: 65px;
-  
-background:#1BA99C;
+  background:#1BA99C;
   text-align: center;
   width: 100%;
 }
 
 .mobilenav a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   color: white;
   padding: 10px 16px 10px;
   text-decoration: none;
@@ -625,27 +630,23 @@ background:#1BA99C;
   display: block;
 }
 
-
 .mobilenav a.icon {
   display: inline-block;
   float:right;
   margin-top: 15px;
- 
-}
-#header-logo-link {
-
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
-#header-logo {
-  margin-top: 10px;
-  width: 7rem;
-  height: 80%;;
-  margin-left: 1rem;
-}
+  #header-logo-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-
+  #header-logo {
+    margin-top: 10px;
+    width: 7rem;
+    height: 80%;;
+    margin-left: 1rem;
+  }
 
   #contact {
     height: 50vh;
