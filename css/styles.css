@@ -34,6 +34,7 @@ body {
     transition: all 0.5s ease;
 		margin: 0;
 		padding: 0;
+    -webkit-appearance: none;
 }
 
 .transparent-header {
@@ -46,6 +47,7 @@ body {
 	color: #1BA99C !important;
 	border-bottom: 1px solid #1BA99C;
 		*/
+    -webkit-appearance: none;
 	-webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -57,6 +59,7 @@ body {
 	/*
 	font-size: .8rem !important;
 	*/
+  -webkit-appearance: none;
 	color: #1BA99C !important;
 	-webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -69,6 +72,7 @@ body {
 }
 
 .nav-tabs {
+  -webkit-appearance: none;
   float: right;
   margin-right: 1rem;
   color: white;
@@ -79,6 +83,7 @@ body {
 }
 
 .nav-tab {
+  -webkit-appearance: none;
   flex: 1;
   height: 100%;
   color: white;
@@ -89,6 +94,7 @@ body {
 }
 
 .nav-tab-link {
+  -webkit-appearance: none;
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
@@ -99,8 +105,8 @@ body {
 
 }
 .nav-tab-link:hover{
+  -webkit-appearance: none;
   text-decoration: underline;
-
 
 }
 
@@ -503,10 +509,12 @@ transform: scale(1.05);
 }
 
 .mobilenav {
+  -webkit-appearance: none;
   display: none;
 }
 
 #contact {
+  -webkit-appearance: none;
   height: 50vh;
 }
 
@@ -587,16 +595,19 @@ transform: scale(1.05);
 }
 
 .mobile-head{
+  -webkit-appearance: none;
   display: block;
   float: left;
 
 }
 .nav-tab-link:hover{
+  -webkit-appearance: none;
   text-decoration: none;
 
 
 }
  .mobilenav {
+   -webkit-appearance: none;
    -webkit-transition: all 0.5s ease;
    -moz-transition: all 0.5s ease;
    -o-transition: all 0.5s ease;
@@ -608,6 +619,7 @@ transform: scale(1.05);
 }
 
 .mobilenav #myLinks {
+  -webkit-appearance: none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -620,6 +632,7 @@ transform: scale(1.05);
 }
 
 .mobilenav a {
+  -webkit-appearance: none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -632,6 +645,7 @@ transform: scale(1.05);
 }
 
 .mobilenav a.icon {
+  -webkit-appearance: none;
   display: inline-block;
   float:right;
   margin-top: 15px;
