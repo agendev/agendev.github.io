@@ -586,7 +586,7 @@ transform: scale(1.05);
 }
 
 .mobile-head{
-  display: inline-block;
+  display: block;
   float: left;
 
 }
