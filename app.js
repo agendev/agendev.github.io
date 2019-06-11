@@ -1,7 +1,7 @@
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
 
-  if (scroll >= 250) {
+  if (scroll >= 200) {
     $(".header").addClass("transparent-header");
   } else {
     $(".header").removeClass("transparent-header");
@@ -12,4 +12,5 @@ $(window).scroll(function() {
 function toggleNav() {
   var box = $("#myLinks");
   box.toggleClass('gone');
+ 
 }
