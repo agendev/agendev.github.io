@@ -6,6 +6,10 @@ html, body {
     -webkit-appearance: none;
 }
 
+a {
+  -webkit-appearance: none;
+}
+
 html {
       scroll-behavior: smooth;
       overscroll-behavior: none;
