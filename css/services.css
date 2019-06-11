@@ -78,6 +78,20 @@ html, body, h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
+.dashboard-image-container {
+  display: inline-block;
+  flex: 1;
+  margin: 2rem;
+}
+
+.dashboard-image {
+  width: 80%;
+  height: 90%;
+  display: inline-block;
+  flex: 1;
+  margin: 2rem;
+}
+
 .services-paragraph {
   padding: 5rem;
   font-size: 1.2rem;
