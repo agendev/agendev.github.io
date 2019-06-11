@@ -69,6 +69,7 @@ body {
 
 .gone {
 	display: none;
+  opacity: 0;
 }
 
 .nav-tabs {
@@ -624,11 +625,12 @@ transform: scale(1.05);
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  display: none;
+  display: block;
   margin-top: 65px;
   background:#1BA99C;
   text-align: center;
   width: 100%;
+  transition: all .2s linear;
 }
 
 .mobilenav a {
