@@ -25,7 +25,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cole-section {
-  background: linear-gradient(#FC5226,#AF3B1D);
+  background: #ff5148;
   color: white;
   padding-left: 2rem;
   flex-direction: space-around;
@@ -61,7 +61,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 .about-image {
   width: 20rem;
   height: 20rem;
-  margin-top: 12.5%;
+  margin-top: 10%;
   display: inline-block;
 }
 
@@ -112,6 +112,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin: 2rem;
   width: 15rem;
   display: flex;
+}
+#nick-about-links{
+  margin: 4rem;
+  margin-top: 2rem;
 }
 
 .about-links a {
