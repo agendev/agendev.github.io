@@ -26,19 +26,19 @@ body {
 .header {
   margin: 0;
   width: 100%;
-  height: 10vh;
+  height: 5rem;
   top: 0;
   position: fixed;
   /*background: #1BA99C;*/
 	background: transparent;
   z-index: 101;
 	-webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-		margin: 0;
-		padding: 0;
-    -webkit-appearance: none;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+	margin: 0;
+	padding: 0;
+  -webkit-appearance: none;
 }
 
 .transparent-header {
@@ -131,7 +131,7 @@ body {
   margin-left: 2rem;
   margin-top: 5px;
   width: 7.5rem;
-  height: 80%;;
+  height: 3.8rem;
 }
 
 /*header stuff above*/
@@ -143,11 +143,12 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  padding-top: 15vh;
+  padding-top: 7vh;
 }
 
 #home {
   padding-top: 0;
+  height: 100%;
 }
 
 #mobile-home-image{
@@ -180,6 +181,7 @@ body {
   height: 4rem;
   margin: 0 auto;
   margin-top: 3rem;
+  margin-bottom: 2rem;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -222,10 +224,13 @@ body {
 /* section home below */
 
 
-#site-home-image-container, #site-home-image {
+#site-home-image-container{
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+#site-home-image{
+  height: 50vw;
 }
 
 #site-home-image-mobile{
@@ -240,17 +245,16 @@ body {
   height: 60%;
   width: 60%;
   margin: auto;
-  margin-top: 16rem;
-  padding-top: 5rem;
+  margin-top: 17%;
+  padding-top: 6%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  position: absolute;
 }
 
 #slogan-text {
   margin: auto;
-  font-size: 4.5rem;
+  font-size: 5vw;
   width: 100%;
   position: absolute;
   top: 0;
@@ -262,11 +266,10 @@ body {
 
 #slogan-logo {
   margin: auto;
-  font-size: 5.5rem;
   width: 18rem;
   position: absolute;
   bottom: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4%;
   color: white;
 }
 
@@ -276,6 +279,7 @@ body {
 
 #about {
 	background-color: #F6F6F6;
+  height: 100%;
 }
 
 .profiles-container {
@@ -313,7 +317,9 @@ body {
 }
 
 /*services*/
-
+#services{
+  height: 100%;
+}
 .homePageServices {
   display: flex;
   margin: 0 auto;
@@ -359,6 +365,7 @@ body {
   background-color: #F6F6F6;
   text-align: center;
   margin: 0 auto;
+  height: 100%;
 }
 
 .projects-container {
@@ -440,28 +447,7 @@ body {
   text-align: center;
 }
 
-#contact-form {
-	width: 50rem;
-	height: 30rem;
-	margin: auto;
-	margin-top: 2rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	border: 1px solid black;
-}
 
-.contact-input {
-	height: 2.8rem;
-	width: 20rem;
-	margin: auto;
-	border-radius: 2rem;
-	outline: none;
-	border: 1px solid #ccc;
-	padding-left: 2rem;
-	font-size: 1.2rem;
-	font-family: "Fira Sans", verdana, sans-serif;
-}
 
 footer {
 	background:#325BAE;
@@ -480,21 +466,24 @@ footer {
 
 #contact {
   text-align: center;
+  height: 100%;
+
 }
 
 
 #mail-to-container {
   width: 400px;
   height:4rem;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.41);
   -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.41);
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.41);
   transition: all .2s ease-in-out;
   cursor: pointer;
+  margin-bottom: 4rem;
   background-image: linear-gradient(#FC5226,#AF3B1D);
 }
 #mail-to-container:hover{
@@ -525,11 +514,13 @@ transform: scale(1.05);
   display: none;
 }
 
-#contact {
-  -webkit-appearance: none;
-  height: 50vh;
-}
 
+@media only screen and (max-width: 768px) {
+
+
+
+
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -537,19 +528,6 @@ transform: scale(1.05);
    height: 100%;
     padding-top: 5vh;
 }
-
-  #about{
-    height: 100%;
-  }
-  #services{
-    height: 100%;
-  }
-  #portfolio{
-    height: 100%;
-  }
-  #contact{
-    height: 100%;
-  }
   .section h2{
     font-size: 2.3rem;
 
@@ -602,7 +580,7 @@ transform: scale(1.05);
 	 display: none;
   }
   #site-home-image-container{
-    height: 100%;
+    height: 100%; 
     background: linear-gradient(#325BAE,#192E57);
   }
   #mobile-home-image{
@@ -626,7 +604,7 @@ transform: scale(1.05);
 	#slogan-logo {
 		height: 5rem;
 		width: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     display: none;
 	}
 
