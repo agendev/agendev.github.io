@@ -7,12 +7,16 @@ $(window).scroll(function() {
     $(".header").removeClass("transparent-header");
   }
 });
-
-$(document).ready(function(){
+if(window.outerWidth < 641 ) {
+	$(document).ready(function(){
 	$('#mobile-home-image').fadeIn(1000);
 	$('#slogan-text').fadeIn(1000);
 	$('#slogan-logo').fadeIn(1000);
-});
+	});
+  
+}
+
+
 function toggleNav() {
   var box = $("#myLinks");
   box.toggleClass('gone');

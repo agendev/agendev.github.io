@@ -179,7 +179,7 @@ body {
   width: 15rem;
   height: 4rem;
   margin: 0 auto;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -534,12 +534,21 @@ transform: scale(1.05);
 @media only screen and (max-width: 600px) {
 
 	.section{
-   height: 200vh;
+   height: 100%;
     padding-top: 5vh;
 }
 
   #about{
-    height: 160vh;
+    height: 100%;
+  }
+  #services{
+    height: 100%;
+  }
+  #portfolio{
+    height: 100%;
+  }
+  #contact{
+    height: 100%;
   }
   .section h2{
     font-size: 2.3rem;
@@ -706,6 +715,7 @@ transform: scale(1.05);
   height: 4rem;
   width: 13rem;
   font-size: 1.3rem;
+  margin-bottom: 1rem;
   }
   .homePageService:hover {
   transform: none;
