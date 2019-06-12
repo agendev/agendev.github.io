@@ -419,7 +419,6 @@ body {
   border: solid #1CAC9C;
   display: inline-block;
   border-width: 0 2px 2px 0;
-  display: inline-block;
   padding: 4px;
   margin-left: 3px;
   text-align: center;
@@ -506,6 +505,7 @@ transform: scale(1.05);
   font-size: 2rem;
   text-align: center;
   line-height: 65px;
+  width: 100%;
   text-decoration: none;
   color: white;
 
@@ -578,10 +578,6 @@ transform: scale(1.05);
 
   .homePageService {
     margin-top: 2rem;
-  }
-
-  #portfolio {
-    height: 200vh;
   }
 
   .projects-container {
@@ -723,8 +719,36 @@ transform: scale(1.05);
   .project:hover{
     transform: none;
   }
+  #mail-to-container:hover{
+    transform: none;
+  }
+  .project{
+    margin-top: 2rem;
+    
+  }
+  .project-title{
+    margin-top: 0;
+  }
+  #sameday-title{
+    margin-top: 2rem;
+  }
+  .portfolio-link{
+    font-size: 1.5rem;
+  }
+  .portfolio-arrow{
+    border-width: 0 4px 4px 0;
+    padding: 6px;
+    margin-left: 3px;
+  }
   #contact {
-    height: 50vh;
+    height: 40vh;
+  }
+  #mail-to-container{
+    width: 300px;
+    height: 4rem;
+  }
+  #mail-to-link{
+    font-size: 1.5rem;
   }
 
 }
