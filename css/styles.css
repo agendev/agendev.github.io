@@ -74,6 +74,7 @@ body {
 .gone {
 	display: none;
   opacity: 0;
+  visibility: hidden;
 }
 
 .nav-tabs {
@@ -280,7 +281,7 @@ body {
 .profiles-container {
   display: flex;
   width: 10rem;
-  margin: auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
@@ -298,7 +299,7 @@ body {
 
 }
 .profile-name{
-    margin:auto;
+    margin: 0 auto;
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
@@ -532,12 +533,20 @@ transform: scale(1.05);
 
 @media only screen and (max-width: 600px) {
 
-	.section {
-		height: 200vh;
-	}
+	.section{
+   height: 200vh;
+    padding-top: 5vh;
+}
 
-  #about {
-    height: 160vh;
+  #about{
+    height: 140vh;
+  }
+  .section h2{
+    font-size: 2.3rem;
+
+  }
+  .section p{
+    font-size: 1.4rem;
   }
 
   .profiles-container {
@@ -546,6 +555,12 @@ transform: scale(1.05);
 
   .profile {
     margin-top: 2rem;
+  }
+  .profile-image-container, .profile-image{
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto;
+
   }
 
   .homePageServices {
@@ -586,8 +601,8 @@ transform: scale(1.05);
     background: linear-gradient(#325BAE,#192E57);
   }
   #mobile-home-image{
-    display: block;
-    padding-top: 5rem;
+    
+    padding-top: 3.5rem;
   }
   
 
@@ -600,20 +615,14 @@ transform: scale(1.05);
 	#slogan-text {
 		font-size: 2.3rem;
     margin-top: 27rem;
-    
-
-
-
+    display: none;
 	}
 
 	#slogan-logo {
 		height: 5rem;
 		width: 10rem;
     margin-bottom: 5rem;
-    
-    
-
-
+    display: none;
 	}
 
 #web-nav {
@@ -693,7 +702,17 @@ transform: scale(1.05);
     height: 80%;;
     margin-left: 1rem;
   }
-
+  .button-container, .button{
+  height: 4rem;
+  width: 13rem;
+  font-size: 1.3rem;
+  }
+  .homePageService:hover {
+  transform: none;
+  }
+  .project:hover{
+    transform: none;
+  }
   #contact {
     height: 50vh;
   }
