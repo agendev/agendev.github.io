@@ -5,18 +5,15 @@ html, body, h1, h2, h3, h4, h5, h6 {
   scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden; 
+  overflow-y: hidden;
 }
 
-#background-photo {
-  width: 100%;
-  height: 100vh;
-}
+
 
 .about-section {
+  display: flex;
   height: 50vh;
   width: 100%;
-  display: flex;
 }
 
 .about-section-half {
@@ -24,9 +21,13 @@ html, body, h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+#big-container {
+
+}
+
 #cole-section {
-  background: #ff5148;
-  color: white;
+  background: white;
+  color: black;
   padding-left: 2rem;
   flex-direction: space-around;
   position: absolute;
@@ -39,10 +40,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #nick-section {
-  background: #1CAC9C;
-  color: white;
+  background: #F6F6F6;
+  color: black;
   position: absolute;
-  top: 50vh;
+  top: 50%;
   left: 100%;
   -webkit-animation: slide-left 0.5s forwards;
   -webkit-animation-delay: 2s;
@@ -152,7 +153,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 .about-paragraph {
   padding: 3rem;
   font-family: "Fira Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3vw;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -170,4 +171,234 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 @keyframes slide-left {
     100% { left: 0; }
+}
+@media only screen and (max-width: 1024px) {
+  .about-section {
+    display: flex;
+    height: 70vw;
+    width: 103vw;
+    flex-direction: column;
+  }
+
+  .about-name {
+    font-size: 3vw;
+  }
+
+  .about-position {
+    font-size: 2vw;
+  }
+
+  #about-skills-cole {
+    font-size: 2vw;
+  }
+
+  #about-skills-nick {
+    font-size: 2vw;
+  }
+
+  #cole-information {
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+
+  #nick-information {
+    margin-left: 15%;
+    margin-right: 0;
+    margin-top: 2%;
+  }
+  .about-links {
+    margin: 5%;
+    margin-left: 20%;
+    width: 70%;
+
+  }
+
+  #social-links {
+    font-size: 3.3vw !important;
+  }
+
+  #nick-about-links {
+    width: 55%;
+    margin-left: 17%;
+
+  }
+
+  .about-image-container {
+    margin-top: 4%;
+    margin-left: 15%;
+  }
+
+  .about-image{
+    height: 30vw;
+    width: 30vw;
+  }
+
+  #nick-image-container {
+    margin-top: 1%;
+    margin-left: 0;
+  }
+
+  .about-paragraph {
+    font-size: 1.8vw;
+    margin-right: 5%;
+  }
+
+  #nick-paragraph {
+    margin-right: 0%;
+    margin-left: 3%;
+    margin-top: 0;
+  }
+
+  #nick-section {
+    flex-direction: column-reverse;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  html, body, h1, h2, h3, h4, h5, h6 {
+    overscroll-behavior: none;
+    max-width: 100%;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  #cole-section {
+    background: white;
+    color: black;
+    padding-left: 0;
+    position: static;
+    -webkit-animation: none;
+    -webkit-animation-delay: none;
+    animation: none;
+    animation-delay: none;
+  }
+
+  #nick-section {
+    background: #F6F6F6;
+    color: black;
+    position: static;
+    -webkit-animation: none;
+    -webkit-animation-delay: none;
+    animation: none;
+    animation-delay: none;
+  }
+
+  .about-section {
+    display: flex;
+    height:150vh;
+    width: 103vw;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .about-section-half {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 0;
+
+  }
+
+  #cole-half {
+    flex-direction: column;
+  }
+
+  .about-name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-position {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #about-skills-cole {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #about-skills-nick {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .about-paragraph {
+    font-size: 1.1rem;;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  #nick-paragraph {
+  }
+
+  .about-information {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #cole-information {
+    margin-top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 7.5%;
+    padding-top: 0;
+
+
+  }
+
+  #nick-information {
+    margin-left: 0;
+    margin-left: 25%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .about-links {
+    margin-left: 12%;
+    width: 100%;
+  }
+
+  #social-links {
+    font-size: 7vw !important;
+  }
+
+  #nick-about-links {
+    width: 85%;
+    margin-left: 20%;
+
+  }
+
+  .about-image-container {
+    margin-left: 0;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-image{
+    height: 50vw;
+    width: 50vw;
+    margin: 0 auto;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  #nick-image {
+    text-align: center;
+    margin-top: 180%;
+
+  }
+
+  #nick-section {
+    flex-direction: column-reverse;
+  }
+
+
+
 }
