@@ -537,11 +537,11 @@ transform: scale(1.05);
   .profile {
     margin-top: 2rem;
   }
+
   .profile-image-container, .profile-image{
     height: 15rem;
     width: 15rem;
     margin: 0 auto;
-
   }
 
   .homePageServices {
