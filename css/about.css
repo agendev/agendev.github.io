@@ -178,7 +178,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 
 .about-image-container {
-  width: 20rem;
+  width: 100%;
   height: 100%;
   display: inline-block;
   flex: 1;
@@ -564,13 +564,13 @@ footer {
   }
 
   .about-paragraph {
-    font-size: 1.1rem;;
-    margin-right: 0;
+    font-size: 1.1rem;
     margin: 0 auto;
+    margin-right: 2%;
   }
 
   #nick-paragraph {
-    margin: 0 auto;
+    margin-right: 4%;
   }
 
   .about-information {
@@ -583,12 +583,12 @@ footer {
     margin-top: 0;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 7.5%;
+    margin-left: 7%;
     padding-top: 0;
   }
 
   #nick-information {
-    margin-left: 22%;
+    margin-left: 20%;
     margin-right: 0;
     margin-top: 0;
   }
@@ -624,10 +624,9 @@ footer {
   }
 
   .about-image{
-    height: 50vw;
-    width: 50vw;
+    height: 200px;
+    width: 200px;
     margin: 0 auto;
-    margin-left: 20%;
     text-align: center;
     margin-top: 10%;
   }
