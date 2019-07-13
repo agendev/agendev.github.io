@@ -5,7 +5,132 @@ html, body, h1, h2, h3, h4, h5, h6 {
   scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
+
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  height: 5rem;
+  top: 0;
+  position: fixed;
+  /*background: #1BA99C;*/
+	background: transparent;
+  z-index: 1;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+	margin: 0;
+	padding: 0;
+  -webkit-appearance: none;
+}
+
+.transparent-header {
+	  background: #1BA99C;
+	/*
+	  background-color: white;
+	height: 8vh !important;
+	font-size: .8rem !important;
+
+	color: #1BA99C !important;
+	border-bottom: 1px solid #1BA99C;
+		*/
+    -webkit-appearance: none;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.transparent {
+	background-color: white;
+	/*
+	font-size: .8rem !important;
+	*/
+  -webkit-appearance: none;
+	color: #1BA99C !important;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.gone {
+	display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-tabs {
+  -webkit-appearance: none;
+  float: right;
+  margin-right: 1rem;
+  color: white;
+  list-style: none;
+  width: 35rem;
+  height: 60%;
+  display: table;
+}
+
+.nav-tab {
+  -webkit-appearance: none;
+  flex: 1;
+  height: 100%;
+  color: white;
+  display: inline-block;
+  margin-left: 2rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-tab-link {
+  -webkit-appearance: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Fira Sans", sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.nav-tab-link:hover{
+  -webkit-appearance: none;
+
+}
+
+
+#header-logo-link {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  height: 100%;
+  padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#header-logo {
+  margin-left: 2rem;
+  margin-top: 5px;
+  width: 7.5rem;
+  height: 3.8rem;
+}
+
+#icon {
+  font-size: 2rem;
+  color: white;
+}
+
+#web-nav {
+  display: table;
+}
+
+.mobilenav {
+  -webkit-appearance: none;
+  display: none;
 }
 
 
@@ -31,7 +156,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   padding-left: 2rem;
   flex-direction: space-around;
   position: absolute;
-  top: 0;
+  top: 10%;
   left: -110%;
   -webkit-animation: slide-right 0.5s forwards;
   -webkit-animation-delay: 2s;
@@ -43,7 +168,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   background: #F6F6F6;
   color: black;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 100%;
   -webkit-animation: slide-left 0.5s forwards;
   -webkit-animation-delay: 2s;
@@ -172,6 +297,23 @@ html, body, h1, h2, h3, h4, h5, h6 {
 @keyframes slide-left {
     100% { left: 0; }
 }
+
+footer {
+	background:#325BAE;
+	color: white;
+	bottom: -38vh;
+	width: 100%;
+	height: 20vh;
+	padding: 1rem;
+  font-family: 'Oxygen', sans-serif;
+  position: absolute;
+}
+
+.container {
+  margin-top: 1.5rem;
+}
+
+
 @media only screen and (max-width: 1024px) {
   .about-section {
     display: flex;
@@ -182,6 +324,14 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
   .about-name {
     font-size: 3vw;
+  }
+
+  #cole-section {
+  top: 5%;
+  }
+
+  #nick-section {
+  top: 60%;
   }
 
   .about-position {
@@ -252,9 +402,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
   #nick-section {
     flex-direction: column-reverse;
   }
-
-
-
+  footer {
+      bottom: -33vh;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -262,9 +412,91 @@ html, body, h1, h2, h3, h4, h5, h6 {
   html, body, h1, h2, h3, h4, h5, h6 {
     overscroll-behavior: none;
     max-width: 100%;
-    overflow-x: visible;
+    overflow-x: hidden;
     overflow-y: visible;
   }
+
+  #mobile-home-image {
+    padding-top: 3.5rem;
+  }
+
+  #web-nav {
+    display: none;
+  }
+
+  .web-head{
+    display: none;
+  }
+
+  .mobile-head{
+    -webkit-appearance: none;
+    display: block;
+    float: left;
+
+  }
+  .nav-tab-link:hover{
+    -webkit-appearance: none;
+    text-decoration: none;
+
+
+  }
+   .mobilenav {
+     -webkit-appearance: none;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    display: block;
+  }
+
+  .mobilenav #myLinks {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: 65px;
+    background:#1BA99C;
+    text-align: center;
+    width: 100%;
+    transition: all .2s linear;
+  }
+
+  .mobilenav a {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: white;
+    padding: 10px 16px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .mobilenav a.icon {
+    -webkit-appearance: none;
+    display: inline-block;
+    float:right;
+    margin-top: 15px;
+  }
+
+  #header-logo-link {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+  #header-logo {
+      margin-top: 10px;
+      width: 7rem;
+      height: 80%;;
+      margin-left: 1rem;
+    }
 
   #cole-section {
     background: white;
@@ -275,6 +507,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
     -webkit-animation-delay: none;
     animation: none;
     animation-delay: none;
+    height: 100%;
+    margin-top: 20%;
   }
 
   #nick-section {
@@ -285,7 +519,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
     -webkit-animation-delay: none;
     animation: none;
     animation-delay: none;
+    height: 100%;
   }
+
 
   .about-section {
     display: flex;
@@ -334,6 +570,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   }
 
   #nick-paragraph {
+    margin: 0 auto;
   }
 
   .about-information {
@@ -348,16 +585,22 @@ html, body, h1, h2, h3, h4, h5, h6 {
     padding-right: 2%;
     margin-left: 7.5%;
     padding-top: 0;
-
-
   }
 
   #nick-information {
-    margin-left: 0;
-    margin-left: 25%;
+    margin-left: 22%;
     margin-right: 0;
     margin-top: 0;
   }
+
+  #cole-information h3 {
+    margin-top: 1rem;
+  }
+
+  #nick-information h3 {
+    margin-top: 1rem;
+  }
+
   .about-links {
     margin-left: 12%;
     width: 100%;
@@ -368,9 +611,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
   }
 
   #nick-about-links {
-    width: 85%;
-    margin-left: 20%;
-
+    width: 89%;
+    margin-left: -13%;
+    margin-bottom: 0;
   }
 
   .about-image-container {
@@ -391,12 +634,20 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
   #nick-image {
     text-align: center;
-    margin-top: 180%;
+    margin-top: 5%;
 
   }
 
   #nick-section {
     flex-direction: column-reverse;
+  }
+
+  footer {
+    position: static;
+  }
+
+  .container {
+    margin-top: 1.5rem;
   }
 
 

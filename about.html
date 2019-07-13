@@ -2,6 +2,8 @@
 <html>
 
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="./css/about.css" type="text/css" rel="stylesheet" />
@@ -9,10 +11,45 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400|Open+Sans+Condensed:300|Titillium+Web&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
       <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
   </head>
 
   <body>
+    <div class="header">
+
+      <a class = "web-head" id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+
+      <ul class="nav-tabs" role="tablist" id="web-nav">
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#about">About Us</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#services">Services</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <!--
+      <ul class="nav-tabs" role="tablist" id="mobile-nav">
+        <li class="nav-tab" role="presentation" id="icon" onclick="myFunction()">
+          <a href="javascript:void(0);"> <i class="fa fa-bars" style="color: white;"></i></a>
+        </li>
+      </ul>
+    -->
+      <div class="mobilenav">
+        <a class = "mobile-head" id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+         <a href="javascript:void(0);" class="icon" onclick="toggleNav()" >
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div id="myLinks" class="gone">
+          <a href="#about" class="nav-tab-link">About Us</a>
+          <a href="#services" class="nav-tab-link">Services</a>
+          <a href="#portfolio"class="nav-tab-link">Portfolio</a>
+          <a href="#contact" class="nav-tab-link">Contact</a>
+        </div>
+
+      </div>
+    </div>
 
 
     <div class="about-section" id="cole-section">
@@ -80,7 +117,19 @@
 
 
     </div>
+    <footer>
+      <div class="container">
+        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h4>About Us</h4>
+          <p>Agendev, LLC is located in Buffalo, New York</p>
+          <div class="contact-info">
+            <i class="fa fa-envelope fa"></i> &nbsp;business@agendev.com
+          </div>
+        </div>
 
+      </div>
+    </footer>
   </body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="about.js"></script>
 </html>

@@ -13,12 +13,11 @@ if(window.outerWidth < 641 ) {
 	$('#slogan-text').fadeIn(1000);
 	$('#slogan-logo').fadeIn(1000);
 	});
-  
+
 }
 
 
 function toggleNav() {
   var box = $("#myLinks");
   box.toggleClass('gone');
-
 }
