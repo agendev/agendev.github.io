@@ -441,11 +441,10 @@ body {
   max-height: 58%;
   width: auto;
   height: auto;
-
   margin: 0 auto;
   margin-top: 7%;
-  border: 1px solid #ccc;
   text-align: center;
+  border: 1px solid #ccc;
 }
 
 
