@@ -15,88 +15,82 @@ html, body, h1, h2, h3, h4, h5, h6 {
 .services-section {
   height: 50vh;
   width: 100%;
-  display: flex;
-  flex-direction: space-between;
   background: white;
 }
 
+.services-section-title {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
 #web-dev {
-  color: white;
-  background: linear-gradient(#FC5226,#AF3B1D);
+  color: black;
+  background: #F6F6F6;
   position: absolute;
   top: 0vh;
+    /*
   left: -110%;
+
   -webkit-animation: slide-right 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-right 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
 #mobile-dev {
-  background: #F6F6F6;
+  background: white;
   position: absolute;
   top: 50vh;
+    /*
   left: 100%;
+
   -webkit-animation: slide-left 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-left 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
 #social-media {
-  color: white;
-  background: linear-gradient(#FC5226,#AF3B1D);
+  color: black;
+  background: #F6F6F6;
   position: absolute;
   top: 100vh;
+    /*
   left: -110%;
+
   -webkit-animation: slide-right 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-right 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
-.services-section-half {
-  flex: 3;
+
+.mobile-platforms-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 2.5rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
-.services-section-half-image {
+.mobile-platform-container {
   flex: 1;
 }
 
-.services-image-container {
-  width: 20rem;
-  height: 20rem;
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
+.mobile-section-logo {
+  width: 15rem;
+  height: 15rem;
 }
 
-.services-image {
-  width: 20rem;
-  height: 20rem;
-  margin-top: 12.5%;
-  display: inline-block;
-}
 
-.dashboard-image-container {
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
-}
-
-.dashboard-image {
-  width: 80%;
-  height: 90%;
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
-}
-
-.services-paragraph {
-  padding: 5rem;
-  font-size: 1.2rem;
-  font-family: 'Titillium Web', sans-serif;o
-}
 
 
 @-webkit-keyframes slide-right {
