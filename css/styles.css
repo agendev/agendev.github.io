@@ -143,7 +143,8 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  padding-top: 7vh;
+  padding-top: 12vh;
+  padding-top: 6rem;
 }
 
 #home {
@@ -440,11 +441,10 @@ body {
   max-height: 58%;
   width: auto;
   height: auto;
-
   margin: 0 auto;
   margin-top: 7%;
-  border: 1px solid #ccc;
   text-align: center;
+  border: 1px solid #ccc;
 }
 
 
@@ -537,11 +537,11 @@ transform: scale(1.05);
   .profile {
     margin-top: 2rem;
   }
+
   .profile-image-container, .profile-image{
     height: 15rem;
     width: 15rem;
     margin: 0 auto;
-
   }
 
   .homePageServices {
