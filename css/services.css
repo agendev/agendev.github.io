@@ -71,19 +71,53 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 
 .mobile-platforms-container {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 2.5rem;
   height: 15rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .mobile-platform-container {
-  flex: 1;
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
 }
+
+.img__description {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+.mobile-platform-container:hover {
+  cursor: pointer;
+}
+
+.mobile-platform-container:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .mobile-section-logo {
   width: 15rem;
