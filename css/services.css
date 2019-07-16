@@ -13,7 +13,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 .services-section {
-  height: 50vh;
   width: 100%;
   background: white;
 }
@@ -30,6 +29,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   background: #F6F6F6;
   position: absolute;
   top: 0vh;
+  height: 100vh;
     /*
   left: -110%;
 
@@ -43,7 +43,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 #mobile-dev {
   background: white;
   position: absolute;
-  top: 50vh;
+  top: 100vh;
+  height: 100vh;
     /*
   left: 100%;
 
@@ -58,7 +59,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
   color: black;
   background: #F6F6F6;
   position: absolute;
-  top: 100vh;
+  top: 200vh;
+  height: 100vh;
     /*
   left: -110%;
 
@@ -124,6 +126,37 @@ html, body, h1, h2, h3, h4, h5, h6 {
   height: 15rem;
 }
 
+.web-dev-photo {
+  width: 10rem;
+  display: block;
+}
+
+#frameworks-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: row;
+  margin-top: 2rem;
+}
+
+#frameworks-container:hover {
+  cursor: pointer;
+  background-image: linear-gradient(#FC5226,#AF3B1D);
+  color: white;
+}
+
+#frameworks-container p {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  float: left;
+}
+
+#framework-logos {
+  width: 10rem;
+  margin: auto;
+}
 
 
 
