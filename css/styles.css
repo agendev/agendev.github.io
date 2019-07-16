@@ -895,3 +895,7 @@ transform: scale(1.05);
   margin: 0 auto;
   text-align: center;
 }
+
+.project-feedback {
+  font-size: 1.2rem;
+}
