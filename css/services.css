@@ -147,7 +147,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-#frameworks-container p {
+
+.tool-description {
   font-size: 1.2rem;
   font-family: sans-serif;
   float: left;
@@ -158,7 +159,21 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+#wordpress-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: row;
+  margin-top: 2rem;
+}
 
+#wordpress-logo {
+  width: 5rem;
+  margin: auto;
+  padding-right: 2rem;
+}
 
 @-webkit-keyframes slide-right {
     100% { left: 0; }
