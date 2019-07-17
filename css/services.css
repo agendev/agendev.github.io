@@ -236,6 +236,7 @@ p {
 }
 
 
+
 .typewriter {
   margin-top: 2rem;
 }
@@ -243,7 +244,6 @@ p {
 .typewriter h1 {
   text-align: center;
   width: 40rem;
-  font-family: sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -251,6 +251,33 @@ p {
   letter-spacing: .15em; /* Adjust as needed */
   animation: animated-text 4s steps(100,end) 1s 1 normal both,
   animated-cursor 600ms steps(100,end) infinite;
+}
+
+#software-development-title {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#mobile-dev {
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../assets/project-photos/paint-splatter.jpg");
+  background-size: cover;
+/*  background-image: url("../assets/project-photos/paint-splatter.jpg");*/
+  background-repeat: no-repeat;
+}
+
+#graphic-design-title {
+  font-family: 'Barriecito', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+  font-size: 3rem;
+  z-index: 1;
 }
 
 /* The typing effect */

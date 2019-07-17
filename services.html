@@ -11,74 +11,71 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 
     <link href="css/services.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Barriecito|Rock+Salt|Source+Code+Pro|Staatliches|Ultra|Vast+Shadow&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   </head>
+
+  <script>
+    $(document).ready(function() {
+    $(".title").lettering();
+    $(".button").lettering();
+  });
+
+
+
+
+
+  $(document).ready(function() {
+    animation();
+  }, 1000);
+
+  $('.button').click(function() {
+    animation();
+  });
+
+
+  function animation() {
+    var title1 = new TimelineMax();
+    title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
+    title1.staggerFromTo(".title span", 0.5,
+    {ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+    {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
+    title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
+  }
+</script>
+
 
   <body>
 
     <img id="background-photo" src="./assets/table-photo.png" />
 
     <div class="services-section" id="web-dev">
-      <div>
-        <h2 class="services-section-title">Web Development</h2>
+
+
+      <div class="typewriter">
+        <h1 id="software-development-title">Software Development</h1>
       </div>
 
-      <div id="frameworks-container">
-        <img id="framework-logos"  src='./assets/frameword-logos.png' />
-        <p class="tool-description">We are proficient in the latest programming technologies including popular Front End Javascript frameworks like Vue, Angular, and React</p>
-      </div>
-
-      <div id="wordpress-container">
-        <img id="wordpress-logo" src='./assets/wordpress-logo.png'  />
-        <p class="tool-description">We are proficient in the latest programming technologies including popular Front End Javascript frameworks like Vue, Angular, and React</p>
-      </div>
-
-      <div>
-        <img class="web-dev-photo" src='./assets/webflow-logo.png' />
-      </div>
-
+      <div id="object" class="slideIn">
 
     </div>
 
     <div class="services-section" id="mobile-dev">
-      <div>
-        <h2 class="services-section-title">Mobile Development</h2>
-      </div>
 
-      <div class="mobile-platforms-container">
-        <div class="mobile-platform-container">
-          <p class="img__description">We have expirience developing ios applications from scratch into production</p>
-          <img class="mobile-section-logo" src='./assets/service-logos/ios-logo.png' />
-        </div>
+      <h1 id="graphic-design-title">Graphic Design</h1>
 
-        <div class="mobile-platform-container">
-          <p class="img__description">We have expirience developing android applications from scratch into production</p>
-          <img class="mobile-section-logo" src='./assets/service-logos/android-logo.png' />
-        </div>
-      </div>
 
     </div>
 
     <div class="services-section" id="social-media">
-      <div>
-        <h2 class="services-section-title">Social Media</h2>
-      </div>
 
-      <div class="mobile-platforms-container">
-        <div class="mobile-platform-container">
-          <p class="img__description">We have expirience developing ios applications from scratch into production</p>
-          <img class="mobile-section-logo" src='./assets/service-logos/ios-logo.png' />
-        </div>
-
-        <div class="mobile-platform-container">
-          <p class="img__description">We have expirience developing android applications from scratch into production</p>
-          <img class="mobile-section-logo" src='./assets/service-logos/android-logo.png' />
-        </div>
-      </div>
-
-
+      <h1 id="social-media-title">Social Media</h1>
 
     </div>
   </body>
