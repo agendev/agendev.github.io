@@ -134,7 +134,7 @@
         <div class="profile">
 
           <div class="profile-image-container">
-            <img class="profile-image" src="assets/nicklogo.png" />
+            <img id="nick-logo" class="profile-image" src="assets/nicklogo.png" />
           </div>
 
           <h3 class="profile-name">Nicholas White</h3>
@@ -164,30 +164,65 @@
 
     <div class="projects-container">
 
-      <div class="project">
-        <img class="project-image" src="assets/samedaydentallogo.png"/>
-        <h3 class="project-title">Same Day Dental</h3>
-        <p class="project-description">ClockwiseMD API Website Integration</p>
-        <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+      <div class="card">
+        <div class="card__content">
+
+          <div class="card__front" id="same-day-dental-card">
+            <img class="project-image" src="./assets/project-photos/samedaydentallogo.png"/>
+            <h3 class="project-title">Same Day Dental</h3>
+            <p class="project-description">ClockwiseMD API Website Integration</p>
+            <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+          </div>
+
+          <div class="card__back">
+            <p class="project-feedback">
+              "We needed an API Integration on our website. It definitely wasn't an easy task, but Nick was great.
+                He is clearly very smart and knows his stuff. He was easy to work with, took feedback well, and was always prompt. We've
+                used multiple freelancers in the past and Nick and Cole were the best. If you're thinking about hiring of them you definitely
+                should" - Same Day Dental
+            </p>
+          </div>
+
+        </div>
       </div>
 
-      <div class="project">
-        <img class="project-image" src="assets/project-photos/completechecklistslogo.png"/>
-        <h3 class="project-title">Complete Checklists</h3>
-        <p class="project-description">Web Application Checklist Software</p>
-        <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+      <div class="card">
+        <div class="card__content">
+
+          <div class="card__front" id="complete-checklists-card">
+            <img class="project-image" src="./assets/project-photos/completechecklistslogo.png"/>
+            <h3 class="project-title">Complete Checklists</h3>
+            <p class="project-description">Web Application Checklist Software</p>
+            <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+          </div>
+
+          <div class="card__back">
+            <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
+          </div>
+
+        </div>
       </div>
 
+      <div class="card">
+        <div class="card__content">
 
-      <div class="project">
-        <img class="project-image" src="assets/zaparelli.png"/>
-        <h3 class="project-title">Zaperalli</h3>
-        <p class="project-description">Native IOS Mobile Application</p>
-        <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+          <div class="card__front" id="zaparelli-card">
+            <img class="project-image" src="./assets/zaparelli.png"/>
+            <h3 class="project-title">Zaperalli</h3>
+            <p class="project-description">Native IOS Mobile Application</p>
+            <a class="portfolio-link" href="portfolio.html">READ MORE<i class="portfolio-arrow"></i></a>
+          </div>
+
+          <div class="card__back">
+            <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
+          </div>
+
+        </div>
       </div>
-
 
     </div>
+
+
 
     <div class="button-container">
       <a href="portfolio.html"><button class="button">PORTFOLIO<i class="right-arrow"></i></button></a>
@@ -224,7 +259,6 @@
           <i class="fa fa-envelope fa"></i> &nbsp;business@agendev.com
         </div>
       </div>
-
     </div>
   </footer>
 

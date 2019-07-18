@@ -11,59 +11,73 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 
     <link href="css/services.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Barriecito|Rock+Salt|Source+Code+Pro|Staatliches|Ultra|Vast+Shadow&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   </head>
+
+  <script>
+    $(document).ready(function() {
+    $(".title").lettering();
+    $(".button").lettering();
+  });
+
+
+
+
+
+  $(document).ready(function() {
+    animation();
+  }, 1000);
+
+  $('.button').click(function() {
+    animation();
+  });
+
+
+  function animation() {
+    var title1 = new TimelineMax();
+    title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
+    title1.staggerFromTo(".title span", 0.5,
+    {ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+    {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
+    title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
+  }
+</script>
+
 
   <body>
 
     <img id="background-photo" src="./assets/table-photo.png" />
 
-
     <div class="services-section" id="web-dev">
 
-      <div class="services-section-half-image">
-        <div class="services-image-container">
-            <img class="services-image" src="./assets/service-icon1.png" />
-        </div>
+
+      <div class="typewriter">
+        <h1 id="software-development-title">Software Development</h1>
       </div>
 
-      <div class="services-section-half">
-        <p class="services-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+      <div id="object" class="slideIn">
 
     </div>
 
+    <div class="services-section" id="mobile-dev">
 
-        <div class="services-section" id="mobile-dev">
-
-
-        <div class="services-section-half">
-          <p class="services-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
-          <div class="services-section-half-image">
-            <div class="services-image-container">
-                <img class="services-image" src="./assets/service-icon2.png" />
-            </div>
-          </div>
-
-        </div>
-
-        <div class="services-section" id="social-media">
-          <div class="services-section-half-image">
-            <div class="services-image-container">
-                <img class="services-image" src="./assets/service-icon3.png" />
-            </div>
-          </div>
+      <h1 id="graphic-design-title">Graphic Design</h1>
 
 
-          <div class="dashboard-image-container">
-            <img class="dashboard-image" src="./assets/social-dashboard.png" />
-          </div>
+    </div>
 
-        </div>
+    <div class="services-section" id="social-media">
+
+      <h1 id="social-media-title">Social Media</h1>
+
+    </div>
   </body>
 
 </html>

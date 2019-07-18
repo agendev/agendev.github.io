@@ -13,91 +13,284 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 .services-section {
-  height: 50vh;
   width: 100%;
-  display: flex;
-  flex-direction: space-between;
   background: white;
 }
 
+.services-section-title {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
 #web-dev {
-  color: white;
-  background: linear-gradient(#FC5226,#AF3B1D);
+  color: black;
+  background: #F6F6F6;
   position: absolute;
   top: 0vh;
+  height: 100vh;
+    /*
   left: -110%;
+
   -webkit-animation: slide-right 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-right 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
 #mobile-dev {
-  background: #F6F6F6;
+  background: white;
   position: absolute;
-  top: 50vh;
+  top: 100vh;
+  height: 100vh;
+    /*
   left: 100%;
+
   -webkit-animation: slide-left 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-left 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
 #social-media {
-  color: white;
-  background: linear-gradient(#FC5226,#AF3B1D);
+  color: black;
+  background: #F6F6F6;
   position: absolute;
-  top: 100vh;
+  top: 200vh;
+  height: 100vh;
+    /*
   left: -110%;
+
   -webkit-animation: slide-right 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide-right 0.5s forwards;
   animation-delay: 1s;
+  */
 }
 
-.services-section-half {
-  flex: 3;
-}
 
-.services-section-half-image {
-  flex: 1;
-}
-
-.services-image-container {
-  width: 20rem;
-  height: 20rem;
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
-}
-
-.services-image {
-  width: 20rem;
-  height: 20rem;
-  margin-top: 12.5%;
-  display: inline-block;
-}
-
-.dashboard-image-container {
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
-}
-
-.dashboard-image {
+.mobile-platforms-container {
   width: 80%;
-  height: 90%;
-  display: inline-block;
-  flex: 1;
-  margin: 2rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.services-paragraph {
-  padding: 5rem;
+.mobile-platform-container {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.img__description {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+.mobile-platform-container:hover {
+  cursor: pointer;
+}
+
+.mobile-platform-container:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.mobile-section-logo {
+  width: 15rem;
+  height: 15rem;
+}
+
+.web-dev-photo {
+  width: 10rem;
+  display: block;
+}
+
+#frameworks-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: row;
+  margin-top: 2rem;
+}
+
+#frameworks-container:hover {
+  cursor: pointer;
+  background-image: linear-gradient(#FC5226,#AF3B1D);
+  color: white;
+}
+
+
+.tool-description {
   font-size: 1.2rem;
-  font-family: 'Titillium Web', sans-serif;o
+  font-family: sans-serif;
+  float: left;
 }
 
+#framework-logos {
+  width: 10rem;
+  margin: auto;
+}
+
+#wordpress-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: row;
+  margin-top: 2rem;
+}
+
+#wordpress-logo {
+  width: 5rem;
+  margin: auto;
+  padding-right: 2rem;
+}
+
+#computer-pic-container {
+  width: 50%;
+  margin: auto;
+}
+
+#computer-pic {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+/*
+.computer-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+
+
+}
+
+*/
+
+p {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: black;
+}
+
+/* Animation */
+p {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+#object{
+	background-color: #fe5652;
+  width: 10rem;
+  height: 10rem;
+  visibility: hidden;
+}
+
+
+
+.typewriter {
+  margin-top: 2rem;
+}
+
+.typewriter h1 {
+  text-align: center;
+  width: 40rem;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: animated-text 4s steps(100,end) 1s 1 normal both,
+  animated-cursor 600ms steps(100,end) infinite;
+}
+
+#software-development-title {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#mobile-dev {
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../assets/project-photos/paint-splatter.jpg");
+  background-size: cover;
+/*  background-image: url("../assets/project-photos/paint-splatter.jpg");*/
+  background-repeat: no-repeat;
+}
+
+#graphic-design-title {
+  font-family: 'Barriecito', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+  font-size: 3rem;
+  z-index: 1;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 
 @-webkit-keyframes slide-right {
     100% { left: 0; }
