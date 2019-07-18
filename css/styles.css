@@ -561,8 +561,8 @@ transform: scale(1.05);
     margin-top: 0;
   }
 
-  .project {
-    margin-top: 5rem;
+  .project-description {
+    font-size: 1rem !important;
   }
 
 	#home {
