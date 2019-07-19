@@ -55,119 +55,132 @@
         <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
         <img alt="Seasoned Tofu" class="featured-pic" src="assets/seasonedtofu.png"/>
       </a>
-      <div id="seasoned1" class="modal">
+      <div id="seasoned1" class="popup modal">
         <h2>The Design Process</h2>
         <p>Using Adobe XD, a popular UI design software, Cole started to design the wireframe (the basic flow of the website). He had to take into account how the users would get to each page, and allow them to do so without any difficulties.</p>
-        <img alt="Seasoned Tofu Wireframe" src="assets/wireframedesign.JPG"/>
+        <img alt="Seasoned Tofu Wireframe" src="assets/wireframedesign.JPG" class="portfolio-pic" id="seasoned-pics"/>
         <p>With the wireframe in mind, Cole was able to design a modern, mobile responsive website, with a different landing header photo on each page, each showcasing different gym exercises.  This design uses gradient background "swooshes" to add a little more pop to the website, and makes it look much more visually appealing.</br>  The fonts used (Raleway and Bebas Neue) were also taken into consideration when deploying the final design.  These are fonts that appeal most to the people who he would be using the website most (18-30 years old, vegan, into fitness), because they're sharp and modern.
-        <img alt="Seasoned Tofu Fidelity" src="assets/fidelitydesign.JPG"/>
+        <img alt="Seasoned Tofu Fidelity" src="assets/fidelitydesign.JPG" class="portfolio-pic" id="seasoned-pics"/>
       </div>
-      <div class="project-square">
+      <a href="#zaparelli" rel="modal:open" class="project-square">
         <h2>Zaperalli iOS Design</h2>
         <p>A native iOS social media platform</p>
         <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
         <img alt="Zaperalli" class="featured-pic" src="assets/zaparelli.png"/>
-        <div class="dropdown-container">
-          <h2>The Design Process</h2>
-          <p>Adobe XD was used to design the look of Zaparelli.  The interface that was required for this project included a "Top Zappers" Page, which acts as a high score system.  "Zapping" another profile ranks them higher on this page.  </p>
-          <img alt="Edit Profile" src="assets/edit-profile.jpg"/>
-          <img alt="Landing Page" src="assets/landing-page.jpg"/>
-          <img alt="Log In Page" src="assets/log-in-page.jpg"/>
-          <img alt="Log Out Popup" src="assets/log-out-popup.jpg"/>
-          <img alt="Profile Page" src="assets/profile-page.jpg"/>
-          <img alt="Purchase Pag" src="assets/purchase-page.jpg"/>
-          <img alt="Search" src="assets/search.jpg"/>
-          <img alt="Sign Up Page" src="assets/sign-up-page.jpg"/>
-          <img alt="Top Zappers" src="assets/top-zappers.jpg"/>
-        </div>
+      </a>
+      <div id="zaparelli" class="popup modal">
+        <h2>The Design Process</h2>
+        <p>Adobe XD was used to design the look of Zaparelli.  The interface that was required for this project included a "Top Zappers" Page, which acts as a high score system.  "Zapping" another profile ranks them higher on this page.  </p>
+        <img alt="Edit Profile" src="assets/edit-profile.jpg" class="portfolio-pic" id="zap-pics" />
+        <img alt="Landing Page" src="assets/landing-page.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Log In Page" src="assets/log-in-page.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Log Out Popup" src="assets/log-out-popup.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Profile Page" src="assets/profile-page.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Purchase Pag" src="assets/purchase-page.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Search" src="assets/search.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Sign Up Page" src="assets/sign-up-page.jpg"class="portfolio-pic"id="zap-pics"/>
+        <img alt="Top Zappers" src="assets/top-zappers.jpg"class="portfolio-pic"id="zap-pics"/>
       </div>
-      <div class="project-square">
+      <a href="#landing" rel="modal:open" class="project-square">
         <h2>Prototype Landing Page</h2>
         <p>An example of the types of landing pages Cole likes to design.  Simple, sleek, and effective.</p>
         <img alt="Landing" class="featured-pic" src="assets/prototype-web-landing-page.jpg"/>
         <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>The Design Process</h2>
-          <p>The design of this landing page comes from the software "Figma"</p>
-          <img alt="Prototype Web Landing Page"src="assets/prototype-web-landing-page.jpg"/>
-        </div>
+      </a>
+      <div id="landing" class="popup modal">
+        <h2>The Design Process</h2>
+        <p>The design of this landing page comes from the software "Figma"</p>
+        <img alt="Prototype Web Landing Page"src="assets/prototype-web-landing-page.jpg" class="portfolio-pic"/>
       </div>
     </div>
 
     <div class="portfolio-section" id="development">
-      <h1 class="portfolio-header">Development</h1>
-      <div class="project-square">
-        <h2>One Match Dental Website and Mobile Application</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Consulting</h2>
-          <p>Nick was thrown into this project towards the end of development. Nick was given designs and features to implement using and lists of front end and back end issues to fix and resolve. Nick worked directly with the company founders throughout the development process.</br>
-            The website was built using an AngularJS front end, NodeJS+Express back end, and a MYSQL database. The site also utilizes several different social media platforms for user authentication and user account creation.  The mobile application was built using an Ionic, Cordova, and Google Firebase.</p>
-          <img alt="One Match Dental App"src="assets/odm-both-project-image.png"/>
+      <h1 class="portfolio-header" id="dev-h1">Development</h1>
+      <div class="column">
+        <div class="row">
+          <a href="#one-match-popup" rel="modal:open" class="project-square" id="dev-square">
+            <h2>One Dental Match Website and Mobile Application</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+            <img alt="One Match Dental App" src="assets/one-match.png" class="featured-pic"/>
+          </a>
+          <div class="popup modal" id="one-match-popup">
+            <h2>Project Type - Consulting</h2>
+            <p>Nick was thrown into this project towards the end of development. Nick was given designs and features to implement using and lists of front end and back end issues to fix and resolve. Nick worked directly with the company founders throughout the development process.</br>
+              The website was built using an AngularJS front end, NodeJS+Express back end, and a MYSQL database. The site also utilizes several different social media platforms for user authentication and user account creation.  The mobile application was built using an Ionic, Cordova, and Google Firebase.</p>
+            <img alt="One Match Dental App"src="assets/odm-both-project-image.png" class="portfolio-pic"/>
+          </div>
+          <a href="#academic" rel="modal:open" class="project-square" id="dev-square">
+            <h2>Academic Live Chat</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+            <img alt="Academic Live Chat"src="assets/cornell-seal.png" class="featured-pic"/>
+          </a>
+          <div class="popup modal" id="academic">
+            <h2>Project Type - Hackathon</h2>
+            <p>Nick worked together with 3 teammates at the Cornell University's annual 48 hour hackathon to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO, Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk about a topic of similar interest.</br>
+            The application uses profile matching through user account similarities and Socket IO to pair individuals. Socket IO is also used for messaging and peer to peer video chatting between users.</p>
+            <img alt="Academic Live Chat"src="assets/alc-project-image.png" class="portfolio-pic"/>
+          </div>
+          <a href="#blockchain" rel="modal:open" class="project-square" id="dev-square">
+            <h2>University at Buffalo Blockchain Buildathon Website</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+            <img alt="UB Blockchain"src="assets/blockchain.jpg" class="featured-pic"/>
+          </a>
+          <div class="popup modal" id="blockchain">
+            <h2>Project Type - Consulting</h2>
+            <p>Nick was given this project towards the end of development, where he polished the overall design of the website and added company, speaker, and event content.</p>
+            <img alt="UB Blockchain"src="assets/ub-project-image.png" class="portfolio-pic"/>
+          </div>
         </div>
-      </div>
-      <div class="project-square">
-        <h2>Academic Live Chat</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Hackathon</h2>
-          <p>I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO, Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk about a topic of similar interest.</br>
-          The application uses profile matching through user account similarities and Socket IO to pair individuals. Socket IO is also used for messaging and peer to peer video chatting between users.</p>
-          <img alt="Academic Live Chat"src="assets/alc-project-image.png"/>
-        </div>
-      </div>
-      <div class="project-square">
-        <h2>University at Buffalo Blockchain Buildathon Website</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Consulting</h2>
-          <p>Nick was given this project towards the end of development, where he polished the overall design of the website and added company, speaker, and event content.</p>
-          <img alt="UB Blockchain"src="assets/ub-project-image.png"/>
-        </div>
-      </div>
-      <div class="project-square">
-        <h2>Backyard Crypto</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Freelance</h2>
-          <p>Nick joined Backyard Crypto to re-architect the entire site and re-write their front end from scratch in ReactJS. The backend of the site is built entirely using Ruby on Rails and PostgreSQL.</p>
-          <img alt="Backyard Crypto"src="assets/backyard-crypto.png"/>
-        </div>
-      </div>
-      <div class="project-square">
-        <h2>Bar Tabs IOS Mobile Application</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Personal</h2>
-          <p>This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending a particular bar.  Nick developed the entire application from the ground up using Swift and the Google Cloud Platform.</p>
-          <img alt="Bar Tabs"src="assets/bar-tabs-project-image.png"/>
-        </div>
-      </div>
-      <div class="project-square">
-        <h2>Complete Checklists Software</h2>
-        <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h2>Project Type - Freelance</h2>
-          <p>Our client wanted us to build a completely new checklist application software to maintain his businesses and make sure they were finishing tasks on time.  The client had used another checklist software but wasn't fully happy with it.  This application allows you to assign checklists to employees (made in a template editor) and have them finish it online.</br>This application was built using ReactJS.</p>
-          <img alt="Complete Checklists"src="assets/bar-tabs-project-image.png"/>
+        <div class="row">
+          <a href="#crypto" rel="modal:open" class="project-square" id="dev-square">
+            <h2>Backyard Crypto</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+            <img alt="Backyard Crypto"src="assets/crypto.png" class="featured-pic"/>
+          </a>
+          <div class="popup modal" id="crypto">
+            <h2>Project Type - Freelance</h2>
+            <p>Nick joined Backyard Crypto to re-architect the entire site and re-write their front end from scratch in ReactJS. The backend of the site is built entirely using Ruby on Rails and PostgreSQL.</p>
+            <img alt="Backyard Crypto"src="assets/backyard-crypto.png" class="portfolio-pic"/>
+          </div>
+          <a href="#bar-tabs" rel="modal:open" class="project-square" id="dev-square">
+            <h2>Bar Tabs IOS Mobile Application</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+          </a>
+          <div class="popup modal" id="bar-tabs">
+            <h2>Project Type - Personal</h2>
+            <p>This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending a particular bar.  Nick developed the entire application from the ground up using Swift and the Google Cloud Platform.</p>
+            <img alt="Bar Tabs"src="assets/bar-tabs-project-image.png" class="portfolio-pic" id="tabs-pic"/>
+          </div>
+          <a href="#checklist" rel="modal:open" class="project-square" id="dev-square">
+            <h2>Complete Checklists Software</h2>
+            <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
+            <img class="featured-pic" src="assets/project-photos/completechecklistslogo.png"/>
+            <div class="popup modal" id="checklist">
+              <h2>Project Type - Freelance</h2>
+              <p>Our client wanted us to build a completely new checklist application software to maintain his businesses and make sure they were finishing tasks on time.  The client had used another checklist software but wasn't fully happy with it.  This application allows you to assign checklists to employees (made in a template editor) and have them finish it online.</br>This application was built using ReactJS.</p>
+              <img alt="Complete Checklists"src="assets/bar-tabs-project-image.png" class="portfolio-pic"/>
+            </div>
+          </a>
         </div>
       </div>
     </div>
 
     <div class="portfolio-section" id="social-media">
-      <h1 class="portfolio-header">Social Media Marketing</h1>
-      <div class="project-square">
-        <h2>"Seasoned Tofu" Brand"</h2>
+      <h1 class="portfolio-header">Social Media</br>Marketing</h1>
+      <a href="#seasoned2" rel="modal:open" class="project-square">
+        <h2>"Seasoned Tofu" Brand</h2>
+        <p>The personal brand of our designer, Cole Hastings.</p>
+        <img alt="Seasoned Tofu" class="featured-pic" src="assets/seasonedtofu.png"/>
         <i class="fa fa-arrow-right fa-2x" id="right-arrow"></i>
-        <div class="dropdown-container">
-          <h3>Cole's brand, based around fitness and personal development, has grown into a massive online audience where thousands of people are reached each day.</h3>
-          <p>Some YouTube stats:</br>1100+ subscribers in under 110 videos</br>Over 60,000 total views</br>Over 175,000 minutes watched</p>
-          <p id="p-pad">Cole is an expert in <strong>YouTube SEO</strong> and has <strong>over 50 videos in competitively ranked tags.
-          </strong>He also shoots all his videos himself, and edits in Adobe Premiere Pro.</p>
-          <p>Some Instagram Stats:<br>17,000+ followers in under 600 posts<br>30+ posts with over 1,500 likes<br>20+ posts with over 100,000 impressions</p>
-          <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/colehastings">Cole's YouTube</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/seasoned_tofu">Cole's Instagram</a>
-        </div>
+      </a>
+      <div class="popup modal" id="seasoned2">
+        <h3>Cole's brand, based around fitness and personal development, has grown into a massive online audience where thousands of people are reached each day.</h3>
+        <p>Some YouTube stats:</br>1100+ subscribers in under 110 videos</br>Over 60,000 total views</br>Over 175,000 minutes watched</p>
+        <p id="p-pad">Cole is an expert in <strong>YouTube SEO</strong> and has <strong>over 50 videos in competitively ranked tags.
+        </strong>He also shoots all his videos himself, and edits in Adobe Premiere Pro.</p>
+        <p>Some Instagram Stats:<br>17,000+ followers in under 600 posts<br>30+ posts with over 1,500 likes<br>20+ posts with over 100,000 impressions</p>
+        <a class="modal-link" target="_blank" rel="noopener noreferrer" href="https://youtube.com/colehastings">Cole's YouTube</a>
+        <a class="modal-link" target="_blank" rel="noopener noreferrer" href="https://instagram.com/seasoned_tofu">Cole's Instagram</a>
       </div>
     </div>
 
