@@ -275,6 +275,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
   #mobile-home-image {
     padding-top: 3.5rem;
   }
