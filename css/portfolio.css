@@ -4,6 +4,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
   overscroll-behavior: none;
   scroll-behavior: smooth;
   max-width: 100%;
+  position: relative;
+
 }
 
 .header {
@@ -108,11 +110,11 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #summary-container h1 {
-  font-size: 4rem;
+  font-size: 4vw;
 }
 
 #summary-container p {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .portfolio-section {
@@ -120,7 +122,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 50vw;
 }
 
 #design {
@@ -146,10 +148,11 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 #dev-h1 {
   margin-right: 1rem;
+  margin-left: .5rem;
 }
 
 .portfolio-section h1 {
-  font-size: 4.5rem;
+  font-size: 4.5vw;
   margin-left: 1.5rem;
 }
 
@@ -161,8 +164,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 .project-square {
-  width: 20rem;
-  height: 15rem;
+  width: 21vw;
+  height: 16vw;
   background: white;
   color: black;
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
@@ -181,7 +184,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 #dev-square {
-  margin: .7rem;
+  margin: .7vw;
 }
 
 #right-arrow {
@@ -189,6 +192,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 0;
   bottom:  0;
+  font-size: 2vw;
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
@@ -197,7 +201,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Sans",sans-serif;
   border-radius: 0px;
   max-width: 80vw;
-  font-size: 2rem;text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .modal p {
@@ -219,6 +224,11 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 .project-square h2 {
   margin-top: .5rem;
+  font-size: 1.5vw;
+}
+
+.project-square p {
+  font-size: 1.1vw;
 }
 
 .featured-pic {
@@ -244,4 +254,229 @@ html, body, h1, h2, h3, h4, h5, h6 {
 #tabs-pic {
   height: 30vw;
   width: 15vw;
+}
+
+#seasoned {
+  width: 6vw;
+}
+footer {
+	background:#325BAE;
+	color: white;
+	bottom: -30vh;
+	width: 97.9%;
+	height: 20vh;
+	padding: 1rem;
+  font-family: 'Oxygen', sans-serif;
+  position: absolute;
+}
+
+.container {
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #mobile-home-image {
+    padding-top: 3.5rem;
+  }
+
+  #web-nav {
+    display: none;
+  }
+
+  .web-head{
+    display: none;
+  }
+
+  .mobile-head{
+    -webkit-appearance: none;
+    display: block;
+    float: left;
+  }
+
+  .nav-tab-link:hover{
+    -webkit-appearance: none;
+    text-decoration: none;
+  }
+
+  .mobilenav {
+     -webkit-appearance: none;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    display: block;
+  }
+
+  .mobilenav #myLinks {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: 65px;
+    background:#1BA99C;
+    text-align: center;
+    width: 100%;
+    transition: all .2s linear;
+  }
+
+  .mobilenav a {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: white;
+    padding: 10px 16px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .mobilenav a.icon {
+    -webkit-appearance: none;
+    display: inline-block;
+    float:right;
+    margin-top: 15px;
+  }
+
+  #header-logo-link {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+  #header-logo {
+      margin-top: 10px;
+      width: 7rem;
+      height: 80%;;
+      margin-left: 1rem;
+    }
+
+  #summary-container {
+      font-family: "Fira Sans",cursive;
+      margin-top: 6rem;
+      text-align: center;
+    }
+
+  #summary-container h1 {
+      font-size: 2.3rem;
+    }
+
+  #summary-container p {
+      font-size: 1.2rem;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+  .portfolio-section {
+      flex-direction: column;
+      height: 100%;
+    }
+
+  #development {
+      flex-direction: column;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    #dev-h1 {
+      margin-right: 0rem;
+      margin-left: .0rem;
+    }
+
+    .portfolio-section h1 {
+      font-size: 2.4rem;
+      margin-left: 0;
+      margin-top: .5rem;
+    }
+
+    .portfolio-section p {
+      font-family: "Montserrat",cursive;
+      padding-left: 3%;
+      padding-right: 3%;
+      margin-bottom: 0;
+    }
+
+    .project-square {
+      width: 18rem;
+      height: 15rem;
+      margin: .7rem;
+    }
+
+    #dev-square {
+      margin: .7rem;
+    }
+
+    #right-arrow {
+      font-size: 1.7rem;
+      margin-bottom: .7rem;
+      margin-right: .7rem;
+    }
+
+    .popup.modal {
+      font-size: 1.2rem;
+    }
+
+    .modal p {
+      font-family: "Montserrat",sans-serif;
+      font-size: 1rem;
+    }
+
+    .modal-link {
+      display: block;
+      font-size: 1rem;
+    }
+
+    .project-square:hover {
+      	transform: none;
+    }
+
+    .project-square h2 {
+      margin-top: 0rem;
+      font-size: 1.5rem;
+    }
+
+    .project-square p {
+      font-size: 1.1rem;
+    }
+
+    .featured-pic {
+      width: 3.5rem;
+    }
+
+    .portfolio-pic {
+      width: 15rem;
+      margin: 0 auto;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+    }
+
+    #seasoned-pics {
+      display: block;
+    }
+
+    #zap-pics {
+      width: 15rem;
+      display: block;
+    }
+
+    #tabs-pic {
+      height: 30rem;
+      width: 15rem;
+    }
+
+    #seasoned {
+      width: 3rem;
+    }
+
+
 }
