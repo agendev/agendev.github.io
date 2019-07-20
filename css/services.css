@@ -28,7 +28,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   background: #163448;
   position: absolute;
   top: 0vh;
-  height: 200vh;
+  height: 300vh;
     /*
   left: -110%;
 
@@ -42,8 +42,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 #mobile-dev {
   background: white;
   position: absolute;
-  top: 200vh;
-  height: 200vh;
+  top: 300vh;
+  height: 300vh;
   color: black;
     /*
   left: 100%;
@@ -59,8 +59,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
   color: black;
   background: #F6F6F6;
   position: absolute;
-  top: 400vh;
-  height: 200vh;
+  top: 600vh;
+  height: 300vh;
     /*
   left: -110%;
 
@@ -255,7 +255,7 @@ p {
 }
 
 #mobile-dev {
-
+background:#325BAE;
 }
 
 #social-media {
@@ -283,7 +283,7 @@ p {
 .main-container {
   width: 95%;
   margin: auto;
-  height: 150vh;
+  height: 250vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -296,11 +296,32 @@ p {
   /*background:#325BAE;*/
 }
 
+#font-awesome-tools {
+  font-size: 5rem;
+  color: black;
+  z-index: 100;
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  background: red;
+}
+
+.title-icon-container {
+  width: 6rem;
+  height: 6rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.title-icon {
+  width: 6rem;
+}
 
 
 .tools-container {
   width: 90%;
   margin: 2rem;
+  height: 30%;
   background: white;
 }
 
