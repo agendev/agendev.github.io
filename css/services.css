@@ -238,7 +238,7 @@ p {
 .main-container {
   width: 95%;
   margin: auto;
-  height: 250vh;
+  height: 280vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,7 +277,7 @@ p {
 
 .tools-container {
   width: 90%;
-  margin: 2rem;
+  margin: 4rem;
   height: 30%;
 }
 
@@ -310,6 +310,7 @@ p {
   background: #1BA99C;
   color: white;
   overflow: scroll;
+  border: 2px solid white;
 }
 
 .column-title {
