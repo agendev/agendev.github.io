@@ -14,7 +14,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 .services-section {
   width: 100%;
-  background: white;
+  background: #163448;
 }
 
 .services-section-title {
@@ -29,14 +29,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0vh;
   height: 300vh;
-    /*
-  left: -110%;
-
-  -webkit-animation: slide-right 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide-right 0.5s forwards;
-  animation-delay: 1s;
-  */
 }
 
 #mobile-dev {
@@ -45,14 +37,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   top: 300vh;
   height: 300vh;
   color: black;
-    /*
-  left: 100%;
-
-  -webkit-animation: slide-left 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide-left 0.5s forwards;
-  animation-delay: 1s;
-  */
+  background: #163448;
 }
 
 #social-media {
@@ -61,14 +46,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 600vh;
   height: 300vh;
-    /*
-  left: -110%;
-
-  -webkit-animation: slide-right 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide-right 0.5s forwards;
-  animation-delay: 1s;
-  */
+  background: #163448;
 }
 
 
@@ -104,8 +82,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   visibility: hidden;
   opacity: 0;
-
-  /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
   font-family: 'Open Sans', sans-serif;
   padding: 2rem;
@@ -187,18 +163,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-/*
-.computer-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5rem;
-
-
-}
-
-*/
-
 p {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -254,15 +218,6 @@ p {
   color: white;
 }
 
-#mobile-dev {
-background:#325BAE;
-}
-
-#social-media {
-  background: #1BA99C;
-
-}
-
 #graphic-design-title {
   font-family: 'Barriecito', sans-serif;
   text-align: center;
@@ -310,11 +265,6 @@ background:#325BAE;
   position: relative;
   width: 7rem;
   height: 7rem;
-  /*
-  margin: auto;
-  margin-top: 2rem;
-  */
-
   top: -2.5rem;
   left: -2.5rem;
   display: inline-block;
@@ -329,17 +279,18 @@ background:#325BAE;
   width: 90%;
   margin: 2rem;
   height: 30%;
-  background: white;
 }
 
 .tools-title {
   position: relative;
-  top: -3rem;
-  font-size: 2rem;
+  top: -4rem;
+  font-size: 3rem;
   text-align: center;
   display: inline-block;
   text-align: center;
   font-family: sans-serif;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .tools-column-container {
@@ -349,29 +300,48 @@ background:#325BAE;
   justify-content: space-between;
   margin: auto;
   height: 70%;
-  background: #ccc;
 }
 
 .tools-column {
   width: 30%;
   text-align: center;
   border: 1px solid black;
+  background-image: linear-gradient(#FC5226,#AF3B1D);
+  background: #1BA99C;
+  color: white;
+  overflow: scroll;
 }
 
+.column-title {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+}
+
+.column-list-title {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
 
 .column-list {
-  color: black;
+  margin-top: 1rem;
+  color: white;
+  overflow: scroll;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: scroll;
 }
 
 li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 1px solid #ccc;
+  font-family: "Lato", sans-serif;
 }
 
 /* The typing effect */

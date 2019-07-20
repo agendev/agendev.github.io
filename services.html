@@ -21,34 +21,6 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   </head>
 
-  <script>
-    $(document).ready(function() {
-    $(".title").lettering();
-    $(".button").lettering();
-  });
-
-
-
-
-
-  $(document).ready(function() {
-    animation();
-  }, 1000);
-
-  $('.button').click(function() {
-    animation();
-  });
-
-
-  function animation() {
-    var title1 = new TimelineMax();
-    title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
-    title1.staggerFromTo(".title span", 0.5,
-    {ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
-    {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
-    title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
-  }
-</script>
 
 
   <body>
@@ -76,27 +48,49 @@
             <div class="tools-column">
               <h3 class="column-title">Web</h3>
 
+              <h3 class="column-list-title">Javascript Frameworks</h3>
+
               <ul class="column-list">
-                <li>
-                  Javascript Frameworks - React, Ember, Angular, Vue
-                </li>
-
-                <li>
-                  Webbuilder Sites - Wordpress, Weebly, Webflow
-                </li>
-
-                <li>
-                  Javascript Frameworks - React, Ember, Angular, Vue
-                </li>
-
-                <li>
-                  Javascript Frameworks - React, Ember, Angular, Vue
-                </li>
-
-                <li>
-                  Javascript Frameworks - React, Ember, Angular, Vue
-                </li>
+                <li>React</li>
+                <li>Ember</li>
+                <li>Angular</li>
+                <li>Vue</li>
               </ul>
+
+              <h3 class="column-list-title">Content Management Systems</h3>
+
+              <ul class="column-list">
+                <li>Wordpress</li>
+                <li>Weebly</li>
+                <li>Webflow</li>
+              </ul>
+
+              <h3 class="column-list-title">Cloud Platforms</h3>
+
+              <ul class="column-list">
+                <li>Microsoft Aszure</li>
+                <li>Google Cloud Platform</li>
+                <li>Amazon Web Services</li>
+              </ul>
+
+              <h3 class="column-list-title">Database Technologies</h3>
+
+              <ul class="column-list">
+                <li>MySQL</li>
+                <li>NoSQL</li>
+                <li>PostgresSQL</li>
+              </ul>
+
+              <h3 class="column-list-title">Programming Languages</h3>
+
+              <ul class="column-list">
+                <li>Python</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Golang</li>
+              </ul>
+
 
             </div>
 
