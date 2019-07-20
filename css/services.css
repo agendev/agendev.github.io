@@ -249,7 +249,7 @@ p {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: animated-text 4s steps(100,end) 1s 1 normal both,
+  animation: animated-text 1s steps(100,end) 0s 1 normal both,
   animated-cursor 600ms steps(100,end) infinite;
 }
 
@@ -309,6 +309,11 @@ p {
   justify-content: space-between;
   margin-top: 5rem;
   align-items: center;
+
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .tools-container {
@@ -353,6 +358,45 @@ p {
 @keyframes slide-left {
     100% { left: 0; }
 }
+
+@-webkit-keyframes bounceInLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-2000px);
+    }
+    60% {
+       opacity: 1;
+       -webkit-transform: translateX(30px);
+    }
+    80% {
+       -webkit-transform: translateX(-10px);
+    }
+    100% {
+       -webkit-transform: translateX(0);
+    }
+ }
+
+ @keyframes bounceInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateX(30px);
+    }
+    80% {
+       transform: translateX(-10px);
+    }
+    100% {
+       transform: translateX(0);
+    }
+ }
+
+ .bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+ }
 
 #software-tools-container {
   height: 3rem;
