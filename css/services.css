@@ -301,20 +301,27 @@ background:#325BAE;
   color: black;
   z-index: 100;
   text-align: center;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   background: red;
 }
 
 .title-icon-container {
-  width: 6rem;
-  height: 6rem;
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  /*
   margin: auto;
   margin-top: 2rem;
+  */
+
+  top: -2.5rem;
+  left: -2.5rem;
+  display: inline-block;
 }
 
 .title-icon {
-  width: 6rem;
+  width: 7rem;
 }
 
 
@@ -326,10 +333,31 @@ background:#325BAE;
 }
 
 .tools-title {
+  position: relative;
+  top: -3rem;
+  font-size: 2rem;
   text-align: center;
-  margin-top: 2rem;
+  display: inline-block;
+  text-align: center;
   font-family: sans-serif;
 }
+
+.tools-column-container {
+  margin-top: 2rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 70%;
+  background: #ccc;
+}
+
+.tools-column {
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+}
+
 
 /* The typing effect */
 @keyframes typing {
