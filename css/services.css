@@ -292,7 +292,6 @@ p {
   width: 90%;
   margin: auto;
   height: 60vh;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
@@ -340,4 +339,15 @@ p {
 
 @keyframes slide-left {
     100% { left: 0; }
+}
+
+#adobe-suite-container {
+  height: 3rem;
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#adobe-suite-icons {
+  width: 20rem;
 }
