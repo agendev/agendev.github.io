@@ -278,7 +278,7 @@ p {
       rgba(255, 255, 255, 0.0),
       rgba(255, 255, 255, 0.0)
     ),
-    url("../assets/project-photos/social-media-bg.jpg");
+    url("../assets/project-photos/social-media-bf.jpg");
   background-size: cover;
 /*  background-image: url("../assets/project-photos/paint-splatter.jpg");*/
   background-repeat: no-repeat;
@@ -304,10 +304,10 @@ p {
 .main-container {
   width: 90%;
   margin: auto;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 3rem;
   align-items: center;
 
   -webkit-animation-duration: 1s;
@@ -318,10 +318,9 @@ p {
 
 .tools-container {
   width: 25rem;
-  height: 25rem;
+  height: 35rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  border-radius: 1rem;
   background: white;
 }
 
