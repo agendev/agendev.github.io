@@ -272,6 +272,18 @@ p {
   background-repeat: no-repeat;
 }
 
+#social-media {
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.0),
+      rgba(255, 255, 255, 0.0)
+    ),
+    url("../assets/project-photos/social-media-bg.jpg");
+  background-size: cover;
+/*  background-image: url("../assets/project-photos/paint-splatter.jpg");*/
+  background-repeat: no-repeat;
+}
+
 #graphic-design-title {
   font-family: 'Barriecito', sans-serif;
   text-align: center;
@@ -286,6 +298,7 @@ p {
   text-align: center;
   margin-top: 2rem;
   font-family: sans-serif;
+  color: white;
 }
 
 .main-container {
@@ -339,6 +352,17 @@ p {
 
 @keyframes slide-left {
     100% { left: 0; }
+}
+
+#software-tools-container {
+  height: 3rem;
+  width: 15rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#software-tools-frameworks {
+  width: 15rem;
 }
 
 #adobe-suite-container {
