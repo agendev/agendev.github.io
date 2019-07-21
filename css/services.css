@@ -305,18 +305,20 @@ p {
   color: white;
   overflow: scroll;
   border: 2px solid white;
+  border-radius: 1rem;
 }
 
 .tools-column:hover {
-
   cursor: pointer;
 }
 
 .column-title {
   font-family: sans-serif;
-  margin-top: 1rem;
+  padding: 1rem;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
+  margin-bottom: 2rem;
+  background: #163448;
 }
 
 .column-list-title {
