@@ -635,3 +635,136 @@ footer {
   font-family: 'Oxygen', sans-serif;
   position: absolute;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+  html, body, h1, h2, h3, h4, h5, h6 {
+    overscroll-behavior: none;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  #mobile-home-image {
+    padding-top: 3.5rem;
+  }
+
+  #web-nav {
+    display: none;
+  }
+
+  .web-head{
+    display: none;
+  }
+
+  .mobile-head{
+    -webkit-appearance: none;
+    display: block;
+    float: left;
+
+  }
+  .nav-tab-link:hover{
+    -webkit-appearance: none;
+    text-decoration: none;
+
+
+  }
+   .mobilenav {
+     -webkit-appearance: none;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    display: block;
+  }
+
+  .mobilenav #myLinks {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: 65px;
+    background:#1BA99C;
+    text-align: center;
+    width: 100%;
+    transition: all .2s linear;
+  }
+
+  .mobilenav a {
+    -webkit-appearance: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: white;
+    padding: 10px 16px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .mobilenav a.icon {
+    -webkit-appearance: none;
+    display: inline-block;
+    float:right;
+    margin-top: 15px;
+  }
+
+  #header-logo-link {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+  #header-logo {
+      margin-top: 10px;
+      width: 7rem;
+      height: 80%;;
+      margin-left: 1rem;
+    }
+
+  #web-dev {
+    height: 500vh;
+    top: 0;
+
+  }
+
+  #mobile-dev {
+    height: 500vh;
+    top: 500vh;
+  }
+
+  #social-media {
+    height: 500vh;
+    top: 1000vh;
+  }
+
+  .maing-container {
+    height: 500vh;
+    flex-direction: column;
+  }
+
+  .tools-container {
+    height: 400vh;
+  }
+
+  .tools-container, .tools-column-container {
+    flex-direction: column;
+  }
+
+  .tools-column {
+    width: 100%;
+  }
+
+
+  footer {
+    position: static;
+  }
+
+}
