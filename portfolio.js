@@ -5,10 +5,7 @@ $('.project-square').click(function(event) {
   return false;
 });
 
-
-
 function toggleNav() {
   var box = $("#myLinks");
   box.toggleClass('gone');
-
 }
