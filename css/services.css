@@ -304,12 +304,14 @@ p {
   background: #1BA99C;
   color: white;
   overflow: scroll;
-  border: 2px solid white;
+  border: 3px solid #163448;
   border-radius: 1rem;
+  transition: all .2s ease-in-out;
 }
 
 .tools-column:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .column-title {
