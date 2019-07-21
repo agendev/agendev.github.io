@@ -41,6 +41,39 @@
 
     <img id="background-photo" src="./assets/table-photo.png" />
 
+    <div class="header">
+
+      <a class = "web-head" id="header-logo-link" href="./index.html"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+
+      <ul class="nav-tabs" role="tablist" id="web-nav">
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="./index.html#services">Services</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="./index.html#about">About Us</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="./index.html#portfolio">Portfolio</a></li>
+        <li class="nav-tab" role="presentation"><a class="nav-tab-link" href="./index.html#contact">Contact</a></li>
+      </ul>
+
+      <!--
+      <ul class="nav-tabs" role="tablist" id="mobile-nav">
+        <li class="nav-tab" role="presentation" id="icon" onclick="myFunction()">
+          <a href="javascript:void(0);"> <i class="fa fa-bars" style="color: white;"></i></a>
+        </li>
+      </ul>
+    -->
+      <div class="mobilenav">
+        <a class = "mobile-head" id="header-logo-link" href="#home"><img id="header-logo" src="assets/alogowhite2.png" /></a>
+         <a href="javascript:void(0);" class="icon" onclick="toggleNav()" >
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div id="myLinks" class="gone">
+          <a href="#about" class="nav-tab-link">About Us</a>
+          <a href="#services" class="nav-tab-link">Services</a>
+          <a href="#portfolio"class="nav-tab-link">Portfolio</a>
+          <a href="#contact" class="nav-tab-link">Contact</a>
+        </div>
+
+      </div>
+    </div>
+
     <div class="services-section" id="web-dev">
 
 

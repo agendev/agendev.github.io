@@ -12,6 +12,133 @@ html, body, h1, h2, h3, h4, h5, h6 {
   height: 100vh;
 }
 
+.header {
+  margin: 0;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  position: fixed;
+	background: transparent;
+  z-index: 1;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+	margin: 0;
+	padding: 0;
+  -webkit-appearance: none;
+  background: #1BA99C;
+}
+
+.transparent-header {
+	  background: #1BA99C;
+	/*
+	  background-color: white;
+	height: 8vh !important;
+	font-size: .8rem !important;
+
+	color: #1BA99C !important;
+	border-bottom: 1px solid #1BA99C;
+		*/
+    -webkit-appearance: none;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.transparent {
+	background-color: white;
+	/*
+	font-size: .8rem !important;
+	*/
+  -webkit-appearance: none;
+	color: #1BA99C !important;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.gone {
+	display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-tabs {
+  -webkit-appearance: none;
+  float: right;
+  margin-right: 1rem;
+  color: white;
+  list-style: none;
+  width: 35rem;
+  height: 60%;
+  display: table;
+}
+
+.nav-tab {
+  -webkit-appearance: none;
+  flex: 1;
+  height: 100%;
+  color: white;
+  display: inline-block;
+  margin-left: 2rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-tab-link {
+  -webkit-appearance: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Fira Sans", sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.nav-tab-link:hover{
+  -webkit-appearance: none;
+
+}
+
+
+#header-logo-link {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  height: 100%;
+  padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#header-logo {
+  margin-left: 2rem;
+  margin-top: 5px;
+  width: 7.5rem;
+  height: 3.8rem;
+}
+
+#icon {
+  font-size: 2rem;
+  color: white;
+}
+
+#web-nav {
+  display: table;
+}
+
+.mobilenav {
+  -webkit-appearance: none;
+  display: none;
+}
+
+
+
 .services-section {
   width: 100%;
   background: white;
@@ -29,13 +156,14 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 #web-dev {
   position: absolute;
-  top: 0vh;
+  top: 10vh;
   height: 300vh;
+  background-color: #f3f3f3;
 }
 
 #mobile-dev {
   position: absolute;
-  top: 300vh;
+  top: 310vh;
   height: 300vh;
   color: black;
 }
@@ -43,8 +171,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
 #social-media {
   color: black;
   position: absolute;
-  top: 600vh;
+  top: 610vh;
   height: 300vh;
+  background-color: #f3f3f3;
 }
 
 
@@ -161,21 +290,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-
-/* text animation */
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
-}
-
 #object{
 	background-color: #fe5652;
   width: 10rem;
@@ -189,20 +303,20 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 .typewriter h1 {
   text-align: center;
-  width: 40rem;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: animated-text 1s steps(100,end) 0s 1 normal both,
-  animated-cursor 600ms steps(100,end) infinite;
+  animation: animated-text 1s steps(500, end) 0s 1 normal both,
+  animated-cursor 600ms steps(500, end) infinite;
 }
 
 #software-development-title {
   font-family: 'Source Code Pro', monospace;
   text-align: center;
   margin-top: 2rem;
+  font-size: 2.5rem;
 }
 
 #graphic-design-title {
@@ -218,6 +332,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 2rem;
   font-family: 'Lato', sans-serif;
+  font-size: 3rem;
 }
 
 .main-container {
@@ -337,6 +452,20 @@ ul {
 li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
   font-family: "Lato", sans-serif;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 37rem;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
 
 /* The typing effect */
