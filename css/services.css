@@ -623,3 +623,15 @@ li {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
 }
+
+
+footer {
+	background:#325BAE;
+	color: white;
+	bottom: -830vh;
+	width: 97.9%;
+	height: 20vh;
+	padding: 1rem;
+  font-family: 'Oxygen', sans-serif;
+  position: absolute;
+}
